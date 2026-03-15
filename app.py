@@ -467,26 +467,57 @@ if page == "Dashboard":
     tier_a_targets = [t for t in st.session_state.targets if get_priority_tier(calculate_priority_score(t)) == "A"]
     tier_a_revenue = sum(estimate_revenue(t) for t in tier_a_targets)
 
-    c1, c2, c3, c4 = st.columns(4)
-    for col, val, label in [
-        (c1, total_targets, "Total Targets"),
-        (c2, len(tier_a_targets), "Tier A Targets"),
-        (c3, f"${tier_a_revenue:,.0f}", "Tier A Pipeline"),
-        (c4, f"${total_pipeline:,.0f}", "Total Pipeline Value"),
-    ]:
-        with col:
-            st.markdown(f'<div class="stat-card"><h1>{val}</h1><p>{label}</p></div>', unsafe_allow_html=True)
+    # Format large numbers nicely
+    def fmt_money(val):
+        if val >= 1_000_000:
+            return f"${val/1_000_000:.1f}M"
+        elif val >= 1_000:
+            return f"${val/1_000:.0f}K"
+        else:
+            return f"${val:,.0f}"
 
-    st.markdown("")
-    c5, c6, c7, c8 = st.columns(4)
-    for col, val, label in [
-        (c5, total_bids, "Bids Tracked"),
-        (c6, active_bids, "Active Bids"),
-        (c7, outreach_sent, "Outreach Sent"),
-        (c8, outreach_responses, "Responses"),
-    ]:
-        with col:
-            st.markdown(f'<div class="stat-card"><h1>{val}</h1><p>{label}</p></div>', unsafe_allow_html=True)
+    # Count contacts
+    targets_with_email = len([t for t in st.session_state.targets if t.get("email") and "@" in t.get("email", "")])
+    targets_with_phone = len([t for t in st.session_state.targets if t.get("phone") and len(t.get("phone", "")) > 5])
+
+    st.markdown(f"""
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 14px;">
+        <div class="stat-card">
+            <h1>{total_targets}</h1>
+            <p>Total Targets</p>
+        </div>
+        <div class="stat-card">
+            <h1>{len(tier_a_targets)}</h1>
+            <p>Tier A Targets</p>
+        </div>
+        <div class="stat-card">
+            <h1>{fmt_money(tier_a_revenue)}</h1>
+            <p>Tier A Pipeline</p>
+        </div>
+        <div class="stat-card">
+            <h1>{fmt_money(total_pipeline)}</h1>
+            <p>Total Pipeline</p>
+        </div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 14px;">
+        <div class="stat-card">
+            <h1>{targets_with_email}</h1>
+            <p>Emails Ready</p>
+        </div>
+        <div class="stat-card">
+            <h1>{targets_with_phone}</h1>
+            <p>Phone Numbers</p>
+        </div>
+        <div class="stat-card">
+            <h1>{total_bids}</h1>
+            <p>Bids Tracked</p>
+        </div>
+        <div class="stat-card">
+            <h1>{outreach_sent}</h1>
+            <p>Outreach Sent</p>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
     st.markdown("")
 
