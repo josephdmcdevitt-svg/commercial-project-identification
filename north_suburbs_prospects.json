@@ -1,0 +1,430 @@
+[
+  {
+    "entity": "Arlington Glen Condominiums",
+    "type": "HOA/Condo Community",
+    "phone": "847-342-9538",
+    "email": null,
+    "management_company": "Northwest Property & Financial Management Corp",
+    "notes": "1603 N Windsor Dr, Arlington Heights, IL 60004. Managed by NW Property & Financial Mgmt (815-459-9187, info@nwprop.com, 780 Tek Dr, Crystal Lake IL 60014)."
+  },
+  {
+    "entity": "Arlington Plaza Condominiums",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown - contact RowCal, McGill, or HRU Management (all serve Arlington Heights)",
+    "notes": "Arlington Heights, IL. Management company not confirmed online. Try RowCal (630-296-9991), McGill (847-259-1331), or HRU Management (1845 E Rand Rd Suite 108, Arlington Heights)."
+  },
+  {
+    "entity": "Fountains of Arlington",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown",
+    "notes": "601 W Rand Rd, Arlington Heights, IL 60004. 108-unit building built 2005. Management company not confirmed online. Try calling community directly or checking with McGill Management (847-259-1331)."
+  },
+  {
+    "entity": "Metropolis Arlington Heights",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown",
+    "notes": "1 S Highland Ave, Arlington Heights, IL 60005 (corner of Campbell St & Highland Ave). Built 2000-2001. HOA fees ~$425/mo. Management company not confirmed online. Note: Metropolis Condominium Management Inc is a MD-based firm (301-779-1800) - NOT confirmed as manager of this property."
+  },
+  {
+    "entity": "Brandenberry Park Condominiums",
+    "type": "HOA/Condo Community",
+    "phone": "847-577-5410",
+    "email": null,
+    "management_company": "Self-managed (Manager: Debbie Citro)",
+    "notes": "2424 E Oakton St, Arlington Heights, IL 60004. Built 1967-1980. Contact manager Debbie Citro at 847-577-5410."
+  },
+  {
+    "entity": "Newport Village Townhomes",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown",
+    "notes": "Arlington Heights, IL. 110-unit townhouse community built by Kennedy Homes. HOA fees $300-$332/mo. Management company not confirmed online."
+  },
+  {
+    "entity": "Courts of Windsor",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown",
+    "notes": "Townhouse community on Windsor off Dryden north of Rand Road, Arlington Heights, IL. Built late 1980s. Management company not confirmed online."
+  },
+  {
+    "entity": "Arlington on the Ponds",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown",
+    "notes": "Courtland off Thomas east of Rand Rd, Arlington Heights, IL. Built 1986-1990 by Mitroff Company. HOA fees $305-$426/mo. Management company not confirmed online."
+  },
+  {
+    "entity": "Triumvera Tower Condominiums",
+    "type": "HOA/Condo Community",
+    "phone": "847-827-2117",
+    "email": null,
+    "management_company": "Self-managed (on-site office)",
+    "notes": "3901 Triumvera Drive, Glenview, IL 60025. Office hours Mon-Fri 9AM-5PM. Founded 2005. Appears self-managed through their HOA. Website: triumvera.com"
+  },
+  {
+    "entity": "Valley Lo Towers (Condominiums)",
+    "type": "HOA/Condo Community",
+    "phone": "847-998-1800",
+    "email": null,
+    "management_company": "Marquette Management",
+    "notes": "1910 Chestnut Ave, Glenview, IL 60025. Managed by Marquette Management (630-320-0550, marquettemanagement.com). Built 1982-1984. HOA fees $590-$821/mo. Website: valleylotowers.com"
+  },
+  {
+    "entity": "Gregg's Landing North HOA",
+    "type": "HOA/Condo Community",
+    "phone": "847-259-1331",
+    "email": "Kim@mcgillmanagement.com",
+    "management_company": "McGill Management, Inc.",
+    "notes": "Vernon Hills, IL. 1305 members. Managed by McGill Management (1314 N Rand Rd, Arlington Heights, IL 60004). Contact: Kim Merrigan. Board meetings: Jan, Mar, May, Jul, Sep, Nov. Website: glnhoa.com"
+  },
+  {
+    "entity": "Gregg's Landing South",
+    "type": "HOA/Condo Community",
+    "phone": "847-259-1331",
+    "email": "Kim@mcgillmanagement.com",
+    "management_company": "McGill Management, Inc. (likely - manages North, multiple sub-associations exist)",
+    "notes": "Vernon Hills, IL. Part of larger Gregg's Landing community with multiple sub-associations. McGill manages the North association; South likely also McGill but not 100% confirmed."
+  },
+  {
+    "entity": "Carriages of Grosse Pointe",
+    "type": "HOA/Condo Community",
+    "phone": "630-653-7782",
+    "email": null,
+    "management_company": "Association Partners, Inc.",
+    "notes": "Vernon Hills, IL. 256 units built 1990-1994 by Centex. Managed by Association Partners Inc (25W560 Geneva Rd Ste 16, Carol Stream, IL 60188, 630-653-7782, associationpartners.org)."
+  },
+  {
+    "entity": "New Century Manor Homes",
+    "type": "HOA/Condo Community",
+    "phone": "847-259-1331",
+    "email": null,
+    "management_company": "McGill Management, Inc.",
+    "notes": "Vernon Hills, IL. 276 townhomes in Regency, Southwick & Coventry Circle areas. Per Village of Vernon Hills HOA listing, managed by McGill Management."
+  },
+  {
+    "entity": "Heritage of Palatine Condominiums",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown - possibly Mperial Asset Management",
+    "notes": "50 S Greeley, Palatine, IL. 48-unit building built 2008. HOA fees $459-$611/mo. Board-administered. Website: theheritageofpalatine.com. Mperial Asset Mgmt is the largest Palatine-area manager but not confirmed for this property."
+  },
+  {
+    "entity": "Lake Barrington Shores HOA",
+    "type": "HOA/Condo Community",
+    "phone": "847-382-1660",
+    "email": null,
+    "management_company": "FirstService Residential",
+    "notes": "64 Old Barn Road, Lake Barrington, IL 60010. Office hours Mon-Fri 8am-5pm, Sat 8am-12pm. After-hours emergency: 847-381-6515 or 800-870-0010. Website: lakebarringtonshores.org. Managed by FirstService Residential."
+  },
+  {
+    "entity": "Commons of Evanston HOA",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown",
+    "notes": "Evanston, IL. Established 1986. Website: commonsofevanston.com. Management company details on their FAQ page but not indexed by search engines. Try visiting commonsofevanston.com/page/20259~307166/Frequently-Asked-Questions"
+  },
+  {
+    "entity": "Grand Dominion (Del Webb)",
+    "type": "HOA/Condo Community",
+    "phone": "847-566-2403",
+    "email": null,
+    "management_company": "Unknown (self-managed lodge office)",
+    "notes": "3555 Grand Dominion, Mundelein, IL. 55+ community on 320 acres built 2007-2016 by Del Webb/Pulte. Lakeside Lodge recreation facility. Phone is lodge/community office. Website: ourgranddominion.net. Management company not confirmed online."
+  },
+  {
+    "entity": "Victoria Park Libertyville",
+    "type": "HOA/Condo Community",
+    "phone": null,
+    "email": null,
+    "management_company": "Unknown",
+    "notes": "Libertyville, IL. 55+ community, 52 attached homes. HOA website: victoria-park-hoa.com (Mike Kohlgraf). May be self-managed. Also see vpha.net."
+  },
+
+  {
+    "entity": "Woodfield Mall",
+    "type": "Shopping Center",
+    "phone": "847-330-0220",
+    "email": null,
+    "management_company": "Simon Property Group",
+    "notes": "5 Woodfield Mall, Schaumburg, IL 60173. Management office: Upper Level JCPenney Wing across from Cheesecake Factory. Hours Mon-Fri 8:30am-5pm. Shopping line: separate number. Website: simon.com/mall/woodfield-mall"
+  },
+  {
+    "entity": "Northbrook Court",
+    "type": "Shopping Center",
+    "phone": "847-498-8161",
+    "email": null,
+    "management_company": "Brookfield Properties",
+    "notes": "Northbrook, IL. Security office: 847-498-5147. Website: northbrookcourt.com. Owned/managed by Brookfield Properties."
+  },
+  {
+    "entity": "Hawthorn Mall",
+    "type": "Shopping Center",
+    "phone": "847-362-2600",
+    "email": null,
+    "management_company": "Centennial Real Estate",
+    "notes": "122 Hawthorn Ctr, Vernon Hills, IL. Owned by Centennial Real Estate (Dallas-based). Undergoing major Hawthorn 2.0 redevelopment. Alt phone: 847-362-2964. Website: visithawthorn.com"
+  },
+  {
+    "entity": "Gurnee Mills",
+    "type": "Shopping Center",
+    "phone": "847-263-2414",
+    "email": null,
+    "management_company": "Simon Property Group",
+    "notes": "6170 W Grand Ave, Gurnee, IL 60031. Mall office: 847-263-2414. Shopping line: 847-263-7500. Security: 847-263-2436. Website: simon.com/mall/gurnee-mills"
+  },
+  {
+    "entity": "Westfield Old Orchard",
+    "type": "Shopping Center",
+    "phone": "847-673-6800",
+    "email": null,
+    "management_company": "Unibail-Rodamco-Westfield (URW)",
+    "notes": "4905 Old Orchard Center, Skokie, IL. Website: westfield.com/united-states/oldorchard"
+  },
+  {
+    "entity": "Randhurst Village",
+    "type": "Shopping Center",
+    "phone": "847-259-0500",
+    "email": null,
+    "management_company": "DLC Management Corp",
+    "notes": "148 Randhurst Village Dr Suite 246, Mount Prospect, IL 60056. Property Manager Kevin Manganello: 914-419-5073. Security: 847-460-2420. Website: randhurstvillage.com"
+  },
+  {
+    "entity": "Deer Park Town Center",
+    "type": "Shopping Center",
+    "phone": "847-726-7755",
+    "email": "info@shopdeerparktowncenter.com",
+    "management_company": null,
+    "notes": "20530 N Rand Rd, Deer Park (Kildeer), IL. Website: shopdeerparktowncenter.com"
+  },
+  {
+    "entity": "Golf Mill Shopping Center",
+    "type": "Shopping Center",
+    "phone": "847-699-1070",
+    "email": null,
+    "management_company": "Sterling Organization",
+    "notes": "239 Golf Mill Center, Niles, IL 60714. Fax: 847-699-1593. Owned by Sterling Organization. Website: golfmill.com"
+  },
+  {
+    "entity": "Village Crossing",
+    "type": "Shopping Center",
+    "phone": "847-364-1380",
+    "email": null,
+    "management_company": "SITE Centers / Fairbourne Properties",
+    "notes": "5507 W Touhy Ave, Skokie, IL 60077. Joint venture of SITE Centers and TIAA-CREF. 722,457 sq ft regional power center. Website: fairbourne.com/village-crossing"
+  },
+  {
+    "entity": "Edens Plaza",
+    "type": "Shopping Center",
+    "phone": null,
+    "email": "info@wsdevelopment.com",
+    "management_company": "WS Development",
+    "notes": "3232 Lake Ave, Wilmette, IL 60091. Acquired by WS Development in 2022. GM: Brittany Mundarain (also manages Plaza del Lago). Website: edensplaza.com. Contact WS Development for management office."
+  },
+  {
+    "entity": "Plaza del Lago",
+    "type": "Shopping Center",
+    "phone": "847-449-5587",
+    "email": "info@wsdevelopment.com",
+    "management_company": "WS Development",
+    "notes": "1515 Sheridan Rd, Wilmette, IL. Alt phone: 847-251-0362. GM: Brittany Mundarain. Website: plazadellago.com. Owned by WS Development."
+  },
+  {
+    "entity": "Market Square Lake Forest",
+    "type": "Shopping Center",
+    "phone": "224-880-5742",
+    "email": null,
+    "management_company": null,
+    "notes": "Lake Forest, IL. Historic shopping center since 1916. Website: shopmarketsquare.com"
+  },
+  {
+    "entity": "Renaissance Place Highland Park",
+    "type": "Shopping Center",
+    "phone": "847-926-4208",
+    "email": null,
+    "management_company": null,
+    "notes": "1849 Green Bay Rd, Highland Park, IL 60035. Website: therenaissanceplace.com"
+  },
+  {
+    "entity": "Deerfield Square",
+    "type": "Shopping Center",
+    "phone": "847-948-6500",
+    "email": null,
+    "management_company": "CRM Properties Group, LTD.",
+    "notes": "740 Waukegan Rd, Deerfield, IL 60015. Managed by CRM Properties Group (Deerfield-based). Website: deerfieldsquareshopping.com"
+  },
+  {
+    "entity": "Lincolnshire Commons",
+    "type": "Shopping Center",
+    "phone": "847-418-9898",
+    "email": null,
+    "management_company": null,
+    "notes": "900 Milwaukee Ave, Lincolnshire, IL 60069. Alt phone: 312-470-1825."
+  },
+  {
+    "entity": "Arlington Town Square",
+    "type": "Shopping Center",
+    "phone": "312-341-9000",
+    "email": null,
+    "management_company": "Abbell Associates, LLC",
+    "notes": "Arlington Heights, IL. Leased and managed by Abbell Associates (30 N LaSalle St Suite 2120, Chicago, IL 60602). Website: arlingtontownsquare.com"
+  },
+
+  {
+    "entity": "Hillcrest Property Management",
+    "type": "Property Manager",
+    "phone": "630-627-3303",
+    "email": "info@hillcrestmgmt.com",
+    "management_company": null,
+    "notes": "55 W 22nd St Suite 310, Lombard, IL 60148. Hours Mon-Fri 9am-5pm. Walk-ins Mon/Wed/Fri 10am-3pm. Website: hillcrestmgmt.com. HOA/condo management."
+  },
+  {
+    "entity": "NS Management",
+    "type": "Property Manager",
+    "phone": "847-998-0404",
+    "email": "info@nsmanagement.net",
+    "management_company": null,
+    "notes": "5301 Dempster St Suite 301, Skokie, IL 60077. Hours Mon-Fri 9am-4:30pm. In business since 1986. Inc. 5000 honoree 2025. Manages condos, townhomes, HOAs in north/west suburbs. Website: nsmanagement.net"
+  },
+  {
+    "entity": "RowCal (Arlington Heights)",
+    "type": "Property Manager",
+    "phone": "630-296-9991",
+    "email": "careteam@rowcal.com",
+    "management_company": null,
+    "notes": "3550 Salt Creek Ln Suite 116, Arlington Heights, IL 60005. Hours Mon-Thu 9am-5pm, Fri 9am-1pm. Full-service HOA management. Website: rowcal.com"
+  },
+  {
+    "entity": "Mperial Asset Management",
+    "type": "Property Manager",
+    "phone": "847-757-7171",
+    "email": "info@mperial.com",
+    "management_company": null,
+    "notes": "110 N Brockway St #320, Palatine, IL 60067. Est. 2005. Specializes in condos, townhomes, HOAs. Website: mperial.com"
+  },
+  {
+    "entity": "GC Realty & Development",
+    "type": "Property Manager",
+    "phone": "630-587-7400",
+    "email": "Contactus@gcrealtyinc.com",
+    "management_company": null,
+    "notes": "219 E Irving Park Rd, Roselle, IL 60172. Hours Mon-Fri 8am-4pm. Residential & commercial property management. Resident email: residents@gcrealtyinc.com. Website: gcrealtyinc.com"
+  },
+  {
+    "entity": "Northwest Property Management Corp",
+    "type": "Property Manager",
+    "phone": "815-459-9187",
+    "email": "info@nwprop.com",
+    "management_company": null,
+    "notes": "780 Tek Drive, Crystal Lake, IL 60014. Fax: 815-459-1306. Hours Mon-Fri 8am-5pm. Geneva office: 630-402-6558. Website: northwestpropertymanagement.net"
+  },
+  {
+    "entity": "Oak & Dale Properties",
+    "type": "Property Manager",
+    "phone": "630-323-8810",
+    "email": "info@oakanddaleproperties.com",
+    "management_company": null,
+    "notes": "211 W Chicago Ave Suite 10, Hinsdale, IL 60521. Fax: 630-323-8910. Contact: Dennis M. Brugh. HOA management. Website: oakanddaleproperties.com"
+  },
+  {
+    "entity": "PACE Management (Pace Realty Group)",
+    "type": "Property Manager",
+    "phone": "847-680-8090",
+    "email": "pacerealtygroup@yahoo.com",
+    "management_company": null,
+    "notes": "300 W Lakeside Dr, Vernon Hills, IL 60061. Hours Mon-Fri 9am-5pm, Sat 10am-2pm. Family-owned 40+ years. Manages Villas by the Lake and Court of Birch/Spruce. Website: gopacemanagement.com"
+  },
+  {
+    "entity": "Worsek & Vihon LLP",
+    "type": "Property Manager (Property Tax Law Firm)",
+    "phone": "312-368-0091",
+    "email": null,
+    "management_company": null,
+    "notes": "NOTE: This is a property TAX law firm, NOT an HOA management company. 180 N LaSalle St Suite 3010, Chicago, IL 60601. Fax: 312-368-9531. Contact: Francis O'Malley. Specializes in commercial/industrial property tax appeals. Website: wvproptax.com"
+  },
+  {
+    "entity": "Property Specialists Inc",
+    "type": "Property Manager",
+    "phone": "847-806-6121",
+    "email": "info@psimanagement.net",
+    "management_company": null,
+    "notes": "2155 Point Blvd Suite 210, Elgin, IL 60123. Contact: Cathy Ryan, CMCA, AMS, PCAM. AAMC accredited. In business since 1975. Website: psimanagement.net"
+  },
+  {
+    "entity": "TruHaven Homes",
+    "type": "Property Manager",
+    "phone": "847-302-2644",
+    "email": "tenants@truhavenonline.com",
+    "management_company": null,
+    "notes": "2057 Green Bay Rd, Highland Park, IL 60035. Hours Mon-Fri 9am-5pm. Team: Rachell (708-947-6025), Dianna (708-998-2008), Keira (708-887-3023), Corey (708-998-2264). Lease questions: Rachell@truhavenonline.com. Maintenance: vendors@truhavenonline.com. Website: truhavenhomes.com/chicago"
+  },
+
+  {
+    "entity": "The Orchard Church - Arlington Heights",
+    "type": "Church",
+    "phone": "847-392-4840",
+    "email": null,
+    "management_company": null,
+    "notes": "1330 N Douglas Ave, Arlington Heights, IL 60004. Email Heather for inquiries. Website: theorchard.church/arlington-heights"
+  },
+  {
+    "entity": "The Orchard Church - Barrington",
+    "type": "Church",
+    "phone": "847-852-2200",
+    "email": null,
+    "management_company": null,
+    "notes": "1301 S Grove Ave, Barrington, IL 60010. Email Robin for inquiries. Website: theorchard.church"
+  },
+  {
+    "entity": "The Orchard Church - Vernon Hills",
+    "type": "Church",
+    "phone": "224-864-1200",
+    "email": null,
+    "management_company": null,
+    "notes": "870 W End Ct, Vernon Hills, IL 60061. Email Sharon for inquiries. Website: theorchard.church"
+  },
+  {
+    "entity": "Waterfront Community Church",
+    "type": "Church",
+    "phone": "847-668-8030",
+    "email": "give@waterfrontcc.com",
+    "management_company": null,
+    "notes": "NOTE: Located in Hoffman Estates, NOT Waukegan. 2080 Stonington Ave, Hoffman Estates, IL 60169. Website: waterfrontcc.com. If you meant Waukegan Community Church: 1016 Grand Ave, Waukegan, IL 60085, phone 847-360-1008, website wcc.org."
+  },
+
+  {
+    "entity": "Endeavor Health (formerly NorthShore)",
+    "type": "Hospital System",
+    "phone": "847-570-2000",
+    "email": null,
+    "management_company": null,
+    "notes": "Corporate Center: 1301 Central St, Evanston, IL 60201. Illinois' 3rd-largest health system, 9 hospitals, 300+ clinic locations, 27,000+ team members. Physician referral: 847-570-5020. VP Supply Chain: Brian Murray. Contact page: endeavorhealth.org/contact-us. No public vendor portal found - call main number and ask for Facilities/Procurement."
+  },
+  {
+    "entity": "Advocate Lutheran General Hospital",
+    "type": "Hospital",
+    "phone": "847-723-2210",
+    "email": null,
+    "management_company": "Advocate Health",
+    "notes": "1775 Dempster St, Park Ridge, IL 60068. Part of Advocate Health system. Vendor/supplier registration portal: advocatehealth.suppliergateway.com. Emergency: 847-723-5154. For facilities/vendor inquiries call main number and ask for Facilities Management."
+  },
+  {
+    "entity": "Advocate Condell Medical Center",
+    "type": "Hospital",
+    "phone": "847-362-2900",
+    "email": null,
+    "management_company": "Advocate Health",
+    "notes": "801 S Milwaukee Ave, Libertyville, IL 60048. Part of Advocate Health system. Patient relations: 847-990-5443. Vendor/supplier registration portal: advocatehealth.suppliergateway.com. For facilities/vendor inquiries call main number and ask for Facilities Management."
+  }
+]

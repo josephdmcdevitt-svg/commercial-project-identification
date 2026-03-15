@@ -1,0 +1,386 @@
+[
+  {
+    "entity": "One Arlington Apartments",
+    "type": "Apartment",
+    "phone": "(847) 892-1911",
+    "email": "Contact form at onearlington.com/Contact.aspx",
+    "address": "3400 W Stonegate Blvd, Arlington Heights, IL 60005",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "The Pointe Apartments",
+    "type": "Apartment",
+    "phone": "(847) 908-5155",
+    "email": "customerservice@thepointeapts.com",
+    "address": "1601 W Woods Dr, Arlington Heights, IL 60004",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "FourNorth Apartments",
+    "type": "Apartment",
+    "phone": "(847) 238-2146",
+    "email": "fournorth@benchmarkdvp.com",
+    "address": "4 N Hickory Ave, Arlington Heights, IL 60004",
+    "management_company": "Benchmark Developers"
+  },
+  {
+    "entity": "North 680",
+    "type": "Apartment",
+    "phone": "(847) 258-9559",
+    "email": "Contact form at north680.com",
+    "address": "680 E Algonquin Rd, Schaumburg, IL 60173",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "The Domaine at Hawthorn Row",
+    "type": "Apartment",
+    "phone": "(877) 564-8233",
+    "email": "Contact form at domaineapartments.com/contact",
+    "address": "750 Hawthorn Row, Vernon Hills, IL 60061 (NOTE: Vernon Hills, not Schaumburg)",
+    "management_company": "Atlantic Residential"
+  },
+  {
+    "entity": "Legend Park Apartments",
+    "type": "Apartment",
+    "phone": "(847) 891-3090",
+    "email": "Not found - call to request",
+    "address": "305 Cambia Dr, Schaumburg, IL 60193",
+    "management_company": "The Legend Group"
+  },
+  {
+    "entity": "Village Green of Schaumburg",
+    "type": "Apartment",
+    "phone": "(847) 908-5320",
+    "email": "Contact form at villagegreenschaumburg.com",
+    "address": "880 Hadley Run Ln, Schaumburg, IL 60173",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "The Quin Apartments",
+    "type": "Apartment",
+    "phone": "(847) 496-7171",
+    "email": "Contact form at thequinapartments.com/contact.php",
+    "address": "2450 Plum Grove Rd, Schaumburg, IL 60173",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "The Tree House Apartments",
+    "type": "Apartment",
+    "phone": "(847) 397-3900",
+    "email": "Contact form at treehouseofschaumburg.com/contact.php",
+    "address": "2500 Brush Rd, Schaumburg, IL 60173",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "International Village Schaumburg",
+    "type": "Apartment",
+    "phone": "(847) 397-4700",
+    "email": "Contact form at ivschaumburg.com",
+    "address": "1220 E Algonquin Rd, Schaumburg, IL 60173",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "Woodbury Place Apartments",
+    "type": "Apartment",
+    "phone": "(847) 843-8400",
+    "email": "woodburyplaceapts@rentaladdress.com",
+    "address": "1010 Knollwood Dr, Schaumburg, IL 60194",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "The Winds at Poplar Creek",
+    "type": "Apartment",
+    "phone": "(224) 339-6422",
+    "email": "Contact form at windspoplarcreek.com/contactus",
+    "address": "1900 Windsong Dr, Schaumburg, IL 60194",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "Arrive Glenview",
+    "type": "Apartment",
+    "phone": "(888) 400-4204",
+    "email": "arriveglenview@trinity-pm.com",
+    "address": "2550 Waterview Dr, Northbrook, IL 60062",
+    "management_company": "Trinity Property Management"
+  },
+  {
+    "entity": "GlenLake Village Apartments",
+    "type": "Apartment",
+    "phone": "(847) 720-7970",
+    "email": "leasing@glenlakeapts.com",
+    "address": "4300 W Lake Ave, Glenview, IL 60026",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "Highpoint at 8000 North",
+    "type": "Apartment",
+    "phone": "(847) 270-8000",
+    "email": "Contact form at highpointskokie.com/contactus",
+    "address": "8000 Lincoln Ave, Skokie, IL 60077",
+    "management_company": "Willow Bridge Property Company"
+  },
+  {
+    "entity": "Optima Old Orchard Woods",
+    "type": "Apartment",
+    "phone": "(847) 410-1079",
+    "email": "Contact form at optimaoldorchardwoods.com",
+    "address": "9739 Woods Dr, Skokie, IL 60077",
+    "management_company": "Trilogy / Optima"
+  },
+  {
+    "entity": "1717 Apartments",
+    "type": "Apartment",
+    "phone": "(833) 315-2860",
+    "email": "1717evanston@greystar.com",
+    "address": "1717 Ridge Ave, Evanston, IL 60201",
+    "management_company": "Greystar"
+  },
+  {
+    "entity": "Park Ridge Commons",
+    "type": "Apartment",
+    "phone": "(847) 744-9052",
+    "email": "managers@prcapts.com",
+    "address": "9030 Kennedy Dr, Des Plaines, IL 60016",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "Briarwood Terrace Apartments",
+    "type": "Apartment",
+    "phone": "(847) 229-9229",
+    "email": "binfo@briarwoodapartments.com",
+    "address": "1501 S Wolf Rd, Prospect Heights, IL 60070",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "Foxboro Apartments",
+    "type": "Apartment",
+    "phone": "(847) 541-0150",
+    "email": "Contact form at foxboroapartments.com",
+    "address": "470 Foxboro Dr, Wheeling, IL 60090",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "Village Park Apartments",
+    "type": "Apartment",
+    "phone": "(847) 843-2121",
+    "email": "villagepark@baapartments.com",
+    "address": "985 Grand Canyon Pkwy, Hoffman Estates, IL 60169",
+    "management_company": "BA Apartments / Village Green"
+  },
+  {
+    "entity": "Everleigh Vernon Hills",
+    "type": "Apartment",
+    "phone": "(224) 931-2000",
+    "email": "Contact form at liveeverleigh.com/communities/vernon-hills",
+    "address": "555 Lakeview Pky, Vernon Hills, IL 60061",
+    "management_company": "Greystar"
+  },
+  {
+    "entity": "Spring Meadows Libertyville",
+    "type": "Apartment / Senior Living",
+    "phone": "(847) 816-6644",
+    "email": "Not found - call to request",
+    "address": "901 Florsheim Dr, Libertyville, IL 60048",
+    "management_company": "Not confirmed"
+  },
+  {
+    "entity": "Renaissance Schaumburg Convention Center Hotel",
+    "type": "Hotel",
+    "phone": "(847) 303-4100",
+    "email": "mhrs.chirs.rshcc.sales@renaissancehotels.com",
+    "address": "1551 N Thoreau Dr, Schaumburg, IL 60173",
+    "management_company": "Marriott International"
+  },
+  {
+    "entity": "Embassy Suites Schaumburg Woodfield",
+    "type": "Hotel",
+    "phone": "(847) 397-1313",
+    "email": "chisb_ds@hilton.com",
+    "address": "1939 N Meacham Rd, Schaumburg, IL 60173",
+    "management_company": "Hilton"
+  },
+  {
+    "entity": "Hyatt Regency Schaumburg",
+    "type": "Hotel",
+    "phone": "(847) 605-1234",
+    "email": "chirw.rfp@hyatt.com",
+    "address": "1800 E Golf Rd, Schaumburg, IL 60173",
+    "management_company": "Hyatt"
+  },
+  {
+    "entity": "Hilton Garden Inn Schaumburg",
+    "type": "Hotel",
+    "phone": "(847) 524-0455",
+    "email": "Not found publicly - try ORDSIGI_hgi@hilton.com or call",
+    "address": "1191 Woodfield Rd, Schaumburg, IL 60173",
+    "management_company": "Hilton"
+  },
+  {
+    "entity": "Hampton Inn Schaumburg",
+    "type": "Hotel",
+    "phone": "(847) 380-2155",
+    "email": "CHIPW_hampton_suites@hilton.com",
+    "address": "891 Plaza Dr, Schaumburg, IL 60173",
+    "management_company": "Hilton"
+  },
+  {
+    "entity": "Courtyard Marriott Schaumburg",
+    "type": "Hotel",
+    "phone": "(847) 619-8100",
+    "email": "chics@marriott.com",
+    "address": "1311 American Ln, Schaumburg, IL 60173",
+    "management_company": "Marriott International"
+  },
+  {
+    "entity": "TownePlace Suites Schaumburg",
+    "type": "Hotel",
+    "phone": "(847) 541-8771",
+    "email": "Contact via marriott.com/hotels/chixs",
+    "address": "750 National Pkwy, Schaumburg, IL 60173",
+    "management_company": "Marriott International"
+  },
+  {
+    "entity": "Hilton Northbrook",
+    "type": "Hotel",
+    "phone": "(847) 480-7500",
+    "email": "CHINB_GM@hilton.com",
+    "address": "2855 Milwaukee Ave, Northbrook, IL 60062",
+    "management_company": "Hilton"
+  },
+  {
+    "entity": "Hyatt Regency Deerfield",
+    "type": "Hotel",
+    "phone": "(847) 945-3400",
+    "email": "Not found publicly - call for sales contact",
+    "address": "1750 Lake Cook Rd, Deerfield, IL 60015",
+    "management_company": "Hyatt"
+  },
+  {
+    "entity": "Embassy Suites Deerfield",
+    "type": "Hotel",
+    "phone": "(847) 945-4500",
+    "email": "DEFIL_GM@hilton.com",
+    "address": "1445 Lake Cook Rd, Deerfield, IL 60015",
+    "management_company": "Hilton / Crescent Hotels"
+  },
+  {
+    "entity": "Holiday Inn Express Deerfield",
+    "type": "Hotel",
+    "phone": "(847) 374-0260",
+    "email": "hixriverwoods@gmail.com",
+    "address": "2600 Lake Cook Rd, Riverwoods, IL 60015",
+    "management_company": "IHG"
+  },
+  {
+    "entity": "Marriott Lincolnshire Resort",
+    "type": "Hotel",
+    "phone": "(847) 634-0100",
+    "email": "eric.bates@chicagomarriottlincolnshire.com (GM) / Group Sales: (847) 634-0200",
+    "address": "10 Marriott Dr, Lincolnshire, IL 60069",
+    "management_company": "Marriott International"
+  },
+  {
+    "entity": "Staybridge Suites Lincolnshire",
+    "type": "Hotel",
+    "phone": "(847) 821-0002",
+    "email": "natalie.moskalyk@carmelhospitality.com",
+    "address": "100 Barclay Blvd, Lincolnshire, IL 60069",
+    "management_company": "Carmel Hospitality / IHG"
+  },
+  {
+    "entity": "Hotel Indigo Vernon Hills",
+    "type": "Hotel",
+    "phone": "(847) 918-1400",
+    "email": "439.frontdesk@hhmhotels.com",
+    "address": "450 N Milwaukee Ave, Vernon Hills, IL 60061",
+    "management_company": "HHM Hotels / IHG"
+  },
+  {
+    "entity": "Hampton Inn Lincolnshire",
+    "type": "Hotel",
+    "phone": "(847) 478-1400",
+    "email": "LINHS_Hampton_Suites@hilton.com",
+    "address": "1400 Milwaukee Ave, Lincolnshire, IL 60069",
+    "management_company": "Hilton"
+  },
+  {
+    "entity": "Friendship Village of Schaumburg",
+    "type": "Senior Living",
+    "phone": "(847) 884-5000",
+    "email": "Contact form at friendshipsenioroptions.org",
+    "address": "350 W Schaumburg Rd, Schaumburg, IL 60194",
+    "management_company": "Friendship Senior Options"
+  },
+  {
+    "entity": "Encore Village of Schaumburg",
+    "type": "Senior Living",
+    "phone": "(847) 884-5000 / Independent & Assisted: (847) 884-5110",
+    "email": "Contact form at encorevillage.com/contact",
+    "address": "350 W Schaumburg Rd, Schaumburg, IL 60194",
+    "management_company": "Friendship Senior Options (rebranded)"
+  },
+  {
+    "entity": "Brookdale Northbrook",
+    "type": "Senior Living",
+    "phone": "(847) 803-7100",
+    "email": "northbrook@brookdale.com",
+    "address": "4501 Concord Ln, Northbrook, IL 60062",
+    "management_company": "Brookdale Senior Living"
+  },
+  {
+    "entity": "Vi at The Glen",
+    "type": "Senior Living",
+    "phone": "(847) 904-4710",
+    "email": "glenview@viliving.com",
+    "address": "2500 Indigo Ln, Glenview, IL 60026",
+    "management_company": "Vi Living"
+  },
+  {
+    "entity": "The Moorings - Arlington Heights",
+    "type": "Senior Living",
+    "phone": "(847) 956-4304",
+    "email": "Contact via presbyterianliving.org or call (847) 652-9094",
+    "address": "811 E Central Rd, Arlington Heights, IL 60005",
+    "management_company": "Presbyterian Homes / Presbyterian Living"
+  },
+  {
+    "entity": "Church Creek - Arlington Heights",
+    "type": "Senior Living",
+    "phone": "(847) 506-3200",
+    "email": "churchcreek@tutera.com",
+    "address": "1250 W Central Rd, Arlington Heights, IL 60005",
+    "management_company": "Tutera Senior Living"
+  },
+  {
+    "entity": "Brookdale Vernon Hills",
+    "type": "Senior Living",
+    "phone": "(847) 793-1370",
+    "email": "Contact via brookdale.com or call",
+    "address": "145 N Milwaukee Ave, Vernon Hills, IL 60061",
+    "management_company": "Brookdale Senior Living"
+  },
+  {
+    "entity": "Springs of Vernon Hills",
+    "type": "Senior Living",
+    "phone": "(847) 634-9300",
+    "email": "Not found publicly - call to request",
+    "address": "350 S Milwaukee Ave, Vernon Hills, IL 60061",
+    "management_company": "JEA Senior Living"
+  },
+  {
+    "entity": "Sunrise of Gurnee",
+    "type": "Senior Living",
+    "phone": "(847) 856-8100",
+    "email": "info@sunriseseniorliving.com",
+    "address": "500 N Hunt Club Rd, Gurnee, IL 60031",
+    "management_company": "Sunrise Senior Living"
+  },
+  {
+    "entity": "Gurnee Meadows",
+    "type": "Senior Living",
+    "phone": "(847) 263-0030",
+    "email": "Contact form at gurneemeadows.com/contact",
+    "address": "1400 Pauly Dr, Gurnee, IL 60031",
+    "management_company": "Not confirmed"
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "entity": "City of Des Plaines",
+    "email": "dbronakowski@desplainesil.gov",
+    "phone": "847-391-5311",
+    "contact_name": "Dominik Bronakowski",
+    "contact_title": "City Clerk"
+  },
+  {
+    "entity": "Village of Mount Prospect",
+    "email": "kagoranos@mountprospect.org",
+    "phone": "847-818-5333",
+    "contact_name": "Karen Agoranos",
+    "contact_title": "Village Clerk"
+  },
+  {
+    "entity": "Village of Wheeling",
+    "email": "kbrady@wheelingil.gov",
+    "phone": "847-499-9231",
+    "contact_name": "Kathryn Brady",
+    "contact_title": "Village Clerk"
+  },
+  {
+    "entity": "Village of Northbrook",
+    "email": null,
+    "phone": "847-272-5050",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "No public email found. Use contact form at northbrook.il.us/604/Contact-Us or call main line."
+  },
+  {
+    "entity": "City of Prospect Heights",
+    "email": "CityAdministration@prospect-heights.org",
+    "phone": "847-398-6070",
+    "contact_name": null,
+    "contact_title": "City Administration"
+  },
+  {
+    "entity": "Village of Lincolnwood",
+    "email": "sdelisi@lwd.org",
+    "phone": "847-745-4707",
+    "contact_name": "Sokol Delisi",
+    "contact_title": "Village Clerk"
+  },
+  {
+    "entity": "Village of Winnetka",
+    "email": "contactus@winnetka.org",
+    "phone": "847-501-6000",
+    "contact_name": null,
+    "contact_title": "Village Manager (also serves as Clerk)",
+    "notes": "Village Manager office phone: 847-716-3541"
+  },
+  {
+    "entity": "Village of Glencoe",
+    "email": "info@villageofglencoe.org",
+    "phone": "847-835-4111",
+    "contact_name": "Philip Kiraly",
+    "contact_title": "Village Manager",
+    "notes": "Village Manager direct email: pkiraly@villageofglencoe.org, direct phone: 847-461-1101"
+  },
+  {
+    "entity": "Village of Inverness",
+    "email": "contact@inverness-il.gov",
+    "phone": "847-358-7740",
+    "contact_name": "Gerald Chapman",
+    "contact_title": "Village Clerk",
+    "notes": "Actual website is inverness-il.gov (redirects from villageofinverness.org)"
+  },
+  {
+    "entity": "Village of Northfield",
+    "email": "mjewett@northfieldil.org",
+    "phone": "847-446-9200",
+    "contact_name": "Melissa Jewett",
+    "contact_title": "Village Staff Contact"
+  },
+  {
+    "entity": "Village of Kenilworth",
+    "email": null,
+    "phone": "847-251-1666",
+    "contact_name": "Michael Gagnon",
+    "contact_title": "Village Clerk",
+    "notes": "Actual website is vok.org. Staff directory at vok.org/Directory.aspx"
+  },
+  {
+    "entity": "Village of Golf",
+    "email": "administrator@villageofgolf.us",
+    "phone": "847-998-8852",
+    "contact_name": "Michelle Shapiro",
+    "contact_title": "Village Administrator",
+    "notes": "Actual website is villageofgolf.us (not .org)"
+  },
+  {
+    "entity": "Village of Riverwoods",
+    "email": "dmoore@riverwoods.gov",
+    "phone": "847-945-3990",
+    "contact_name": "Danice Moore",
+    "contact_title": "Village Clerk",
+    "notes": "Phone ext 312. Actual website is riverwoods.gov. Office hours M-F 8:30am-1:30pm."
+  },
+  {
+    "entity": "Village of South Barrington",
+    "email": "villagehall@southbarrington.org",
+    "phone": "847-381-7510",
+    "contact_name": null,
+    "contact_title": null
+  },
+  {
+    "entity": "Village of Barrington Hills",
+    "email": "village@vbhil.gov",
+    "phone": "847-551-3000",
+    "contact_name": "Nikki Panos",
+    "contact_title": "Village Clerk",
+    "notes": "Clerk email: clerk@vbhil.gov. Director of Administration: Anna Paul, apaul@vbhil.gov"
+  },
+  {
+    "entity": "Village of North Barrington",
+    "email": "info@northbarrington.org",
+    "phone": "847-381-6000",
+    "contact_name": null,
+    "contact_title": null
+  },
+  {
+    "entity": "Village of Deer Park",
+    "email": "administrator@vodp.net",
+    "phone": "847-726-1648",
+    "contact_name": "Cheryl Martire",
+    "contact_title": "Village Clerk"
+  },
+  {
+    "entity": "Village of Lake Barrington",
+    "email": "lakebarrington@lakebarrington.org",
+    "phone": "847-381-6010",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "Actual website is lakebarrington.org"
+  },
+  {
+    "entity": "City of Highland Park",
+    "email": "cityhp@cityhpil.com",
+    "phone": "847-926-1000",
+    "contact_name": null,
+    "contact_title": "City Manager's Office",
+    "notes": "City Clerk email: clerk@cityhpil.com. City Hall alt phone: 847-432-0800"
+  },
+  {
+    "entity": "City of Zion",
+    "email": "sheryls@zion.il.us",
+    "phone": "847-746-4012",
+    "contact_name": "Sheryl Spooner",
+    "contact_title": "City Clerk",
+    "notes": "Main city phone: 847-746-4000"
+  },
+  {
+    "entity": "Village of Grayslake",
+    "email": null,
+    "phone": "847-223-8515",
+    "contact_name": "Cynthia E. Lee",
+    "contact_title": "Village Clerk",
+    "notes": "Contact form at egovlink.com/grayslake/action.asp. 10 S Seymour Ave, Grayslake, IL 60030"
+  },
+  {
+    "entity": "Village of Round Lake",
+    "email": null,
+    "phone": "847-546-5400",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "442 N Cedar Lake Road, Round Lake, IL 60073. Website roundlakeil.gov blocked automated access."
+  },
+  {
+    "entity": "Village of Antioch",
+    "email": null,
+    "phone": "847-395-1000",
+    "contact_name": "Lori Romine",
+    "contact_title": "Village Clerk",
+    "notes": "Clerk direct extension: x1304. 935 Skidmore Drive, Antioch, IL 60002"
+  },
+  {
+    "entity": "Village of Lindenhurst",
+    "email": null,
+    "phone": "847-356-8252",
+    "contact_name": "Melissa Forsberg",
+    "contact_title": "Village Clerk",
+    "notes": "2301 E Sand Lake Road, Lindenhurst, IL 60046"
+  },
+  {
+    "entity": "Village of Beach Park",
+    "email": null,
+    "phone": "847-746-1770",
+    "contact_name": "Mary Jo McDonald",
+    "contact_title": "Village Clerk",
+    "notes": "11270 W Wadsworth Road, Beach Park, IL 60099. Contact form available on website."
+  },
+  {
+    "entity": "Village of Wauconda",
+    "email": null,
+    "phone": "847-526-9600",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "101 N Main Street, Wauconda, IL 60084. Contact form at egovlink.com/wauconda/action.asp. Deputy Clerk: Sherry Davies."
+  },
+  {
+    "entity": "Village of Fox Lake",
+    "email": null,
+    "phone": "847-587-2151",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "66 Thillen Drive, Fox Lake, IL 60020. Admin phone: 847-587-3971."
+  },
+  {
+    "entity": "Village of Hawthorn Woods",
+    "email": null,
+    "phone": "847-438-5500",
+    "contact_name": null,
+    "contact_title": "Village Clerk",
+    "notes": "2 Lagoon Drive, Hawthorn Woods, IL 60047. Clerk direct: 847-847-3590. Email format: first_initial.last@vhw.org"
+  },
+  {
+    "entity": "Village of Lake Villa",
+    "email": "webmaster@lake-villa.org",
+    "phone": "847-356-6100",
+    "contact_name": "Connie Olker",
+    "contact_title": "Village Clerk",
+    "notes": "65 Cedar Avenue, Lake Villa, IL 60046. Non-emergency: 847-356-6106."
+  },
+  {
+    "entity": "Village of Lincolnshire",
+    "email": null,
+    "phone": "847-883-8600",
+    "contact_name": "Manstandrea",
+    "contact_title": "Village Clerk",
+    "notes": "1 Olde Half Day Road, Lincolnshire, IL 60069. Actual website: lincolnshireil.gov. Clerk can be reached through Village Manager's Office."
+  },
+  {
+    "entity": "Park City",
+    "email": "cityhall@parkcityil.org",
+    "phone": "847-623-5030",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "3355 Belvidere Road, Park City, IL 60085. Actual website: parkcityil.com"
+  },
+  {
+    "entity": "Village of Round Lake Beach",
+    "email": null,
+    "phone": "847-546-2351",
+    "contact_name": "Margie Cleveland",
+    "contact_title": "Village Clerk",
+    "notes": "1937 N Municipal Way, Round Lake Beach, IL 60073. Term: 2023-2027."
+  },
+  {
+    "entity": "Village of Round Lake Park",
+    "email": "lnava@rlpil.com",
+    "phone": "847-546-2790",
+    "contact_name": "Lucy Nava",
+    "contact_title": "Village Clerk",
+    "notes": "203 E Lake Shore Dr, Round Lake Park, IL 60073. Actual website: rlpil.us"
+  },
+  {
+    "entity": "Village of Winthrop Harbor",
+    "email": null,
+    "phone": "847-872-3846",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "830 Sheridan Road, Winthrop Harbor, IL 60096. Emails protected by JavaScript on website. Call for email addresses."
+  },
+  {
+    "entity": "Village of Lakemoor",
+    "email": "villagehall@lakemoor.net",
+    "phone": "815-385-1117",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "28581 Illinois Route 120, Lakemoor, IL 60051. Mayor Colin McIntyre."
+  },
+  {
+    "entity": "Village of Lake Bluff",
+    "email": null,
+    "phone": "847-234-0774",
+    "contact_name": "Graham Hallen",
+    "contact_title": "Village Clerk",
+    "notes": "Village Administrator: Drew Irvin. 40 E Center Avenue, Lake Bluff, IL 60044. Email protected by JavaScript on site."
+  },
+  {
+    "entity": "City of Highwood",
+    "email": null,
+    "phone": null,
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "Website cityofhighwood.org was unreachable. Try calling directory assistance."
+  },
+  {
+    "entity": "Village of Kildeer",
+    "email": "mtalbett@villageofkildeer.com",
+    "phone": "847-438-6000",
+    "contact_name": "Michael Talbett",
+    "contact_title": "Chief Village Officer",
+    "notes": "21911 Quentin Road, Kildeer, IL 60047. Admin Asst: Chrissy Dowgiallo, cdowgiallo@villageofkildeer.com"
+  },
+  {
+    "entity": "Village of Green Oaks",
+    "email": null,
+    "phone": "847-362-5363",
+    "contact_name": "Claire Michelotti",
+    "contact_title": "Village Clerk",
+    "notes": "2020 O'Plaine Road, Green Oaks, IL 60048. Website rendered mostly CSS; call for email."
+  },
+  {
+    "entity": "Village of Hainesville",
+    "email": null,
+    "phone": "847-223-2032",
+    "contact_name": "Christina Reiser",
+    "contact_title": "Village Clerk",
+    "notes": "100 N Hainesville Road, Hainesville, IL 60030. Deputy Clerk: Ruby Mendez."
+  },
+  {
+    "entity": "Village of Bannockburn",
+    "email": "shannon@villageofbannockburn.org",
+    "phone": "847-945-6080",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "2275 Telegraph Road, Bannockburn, IL 60015. Fax: 847-945-8496."
+  },
+  {
+    "entity": "Village of Mettawa",
+    "email": "clerk@mettawa.org",
+    "phone": "847-573-1460",
+    "contact_name": null,
+    "contact_title": "Village Clerk",
+    "notes": "Office at Extra Space Facility, 700 East Park Ave, Libertyville, IL 60048. Hours 9am-12pm only."
+  },
+  {
+    "entity": "Village of Island Lake",
+    "email": "voil@villageofislandlake.com",
+    "phone": "847-526-8764",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "3720 Greenleaf Avenue, Island Lake, IL 60042. Closed for lunch 12:30-1:30pm."
+  },
+  {
+    "entity": "Village of Volo",
+    "email": null,
+    "phone": "847-740-6982",
+    "contact_name": "Colleen Huhn",
+    "contact_title": "Village Clerk",
+    "notes": "500 S Fish Lake Road, Volo, IL 60073. Contact through village website."
+  },
+  {
+    "entity": "Village of Wadsworth",
+    "email": "info@villageofwadsworth.org",
+    "phone": "847-336-7771",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "14155 W Wadsworth Road, Wadsworth, IL 60083. Hours: 9am-3pm M-F."
+  },
+  {
+    "entity": "Village of Old Mill Creek",
+    "email": "villageofoldmillcreek@gmail.com",
+    "phone": "847-838-0275",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "19020 Old Town Ct, Old Mill Creek, IL 60046. Alt phones: 224-372-7293, 224-372-7467. No full-time employees; hours by appointment only."
+  },
+  {
+    "entity": "Village of Third Lake",
+    "email": "info@thirdlakevillage.com",
+    "phone": "847-223-8422",
+    "contact_name": "Kelly Novak",
+    "contact_title": "Village Clerk",
+    "notes": "Clerk email: knovak@thirdlakevillage.com. 87 N Lake Ave, Third Lake, IL 60030. Hours: M-F 8:30am-2:30pm."
+  },
+  {
+    "entity": "Village of Round Lake Heights",
+    "email": null,
+    "phone": "847-546-1206",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "619 W Pontiac Court, Round Lake Heights, IL 60073. Fax: 847-546-9728. Actual website: villageofroundlakeheights.org"
+  },
+  {
+    "entity": "Village of Deerfield",
+    "email": "communications@deerfield.il.us",
+    "phone": "847-945-5000",
+    "contact_name": "Daniel Van Dusen",
+    "contact_title": "Deputy Village Clerk",
+    "notes": "Deputy Clerk email: dvandusen@deerfield.il.us, phone: 847-719-7404. Village Manager's Office: 847-719-7400. 850 Waukegan Road, Deerfield, IL 60015."
+  },
+  {
+    "entity": "Village of Niles",
+    "email": "ContactNiles@vniles.com",
+    "phone": "847-588-8000",
+    "contact_name": null,
+    "contact_title": null,
+    "notes": "1000 Civic Center Drive, Niles, IL 60714."
+  },
+  {
+    "entity": "City of Rolling Meadows",
+    "email": null,
+    "phone": "847-394-8500",
+    "contact_name": null,
+    "contact_title": "City Clerk's Office",
+    "notes": "City Clerk office direct: 847-870-9007. 3600 Kirchoff Road, Rolling Meadows, IL 60008. Contact form on cityrm.org."
+  }
+]

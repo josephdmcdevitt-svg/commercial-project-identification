@@ -1,0 +1,416 @@
+{
+  "research_date": "2026-03-15",
+  "illinois_law": {
+    "competitive_bidding_threshold": "$25,000",
+    "statute": "65 ILCS 5/8-9-1",
+    "description": "For non-home rule municipalities under 500,000 population, any public work or improvement exceeding $25,000 must be awarded to the lowest responsible bidder after advertising for bids. Materials valued at $25,000+ used in construction must also be competitively bid.",
+    "home_rule_note": "Home rule municipalities (most larger suburbs) can set their own thresholds by ordinance and are NOT bound by the $25,000 state threshold. Many set their own at $20,000-$50,000.",
+    "below_threshold": "Below $25,000 (or the municipality's own threshold), purchases can generally be made with informal quotes or direct purchase at the discretion of the purchasing department.",
+    "informal_quotes_common_practice": "Most municipalities use a tiered approach: direct purchase for small amounts (often under $5,000-$10,000), informal phone/written quotes for mid-range ($10,000-$25,000), and formal sealed bids above threshold.",
+    "expedited_vendor_approval": "Illinois law does not provide for expedited vendor approval for national companies. Each municipality has its own registration process. However, being pre-registered on platforms like DemandStar or BidNet Direct makes it faster to respond to opportunities across multiple municipalities."
+  },
+  "municipalities": {
+    "evanston": {
+      "name": "City of Evanston",
+      "website": "cityofevanston.org",
+      "home_rule": true,
+      "bidding_platform": "DemandStar",
+      "vendor_registration": "Online via Formstack (arts.formstack.com/forms/vendor_registration_form) plus AvidXchange registration for payments",
+      "required_documents": [
+        "Vendor DBE Certification (required per Public Act 102-0265, regardless of DBE status)",
+        "AvidXchange payment registration",
+        "W-9"
+      ],
+      "purchasing_threshold": "Not publicly posted - contact purchasing department",
+      "purchasing_contact": {
+        "department": "Purchasing Department",
+        "phone": "847-866-2935",
+        "email": "purchasing@cityofevanston.org"
+      },
+      "notes": "Uses DemandStar for all formal solicitations. Free vendor registration on DemandStar."
+    },
+    "skokie": {
+      "name": "Village of Skokie",
+      "website": "skokie.org",
+      "home_rule": true,
+      "bidding_platform": "Own website (skokie.org/bids.aspx) - no third-party platform",
+      "vendor_registration": "No formal online registration portal. Bid documents available online 24/7 or picked up at Purchasing Division office.",
+      "required_documents": [
+        "Follow all terms, conditions, and specifications in bid documents",
+        "Business card and deposit for construction bid plans",
+        "IDOT Pre-Qualification Form (for Motor Fuel Tax-funded projects)"
+      ],
+      "purchasing_threshold": "$25,000 - competitive solicitation required above this amount",
+      "purchasing_contact": {
+        "name": "Michael Aleksic",
+        "title": "Assistant Finance Director",
+        "phone": "847-933-8240",
+        "email": "michael.aleksic@skokie.org",
+        "address": "5127 Oakton Street, Skokie, IL 60077"
+      },
+      "notes": "Bids opened publicly at Village Hall. Board of Trustees approval required for contracts over $25,000."
+    },
+    "arlington_heights": {
+      "name": "Village of Arlington Heights",
+      "website": "vah.com",
+      "home_rule": true,
+      "bidding_platform": "Electronic Bid Management System (own system via Munis Self Service)",
+      "vendor_registration": "Online via Civic Access (CSS) portal. New vendors register at vilofarlingtonheightsil.munisselfservice.com. Contractor registration also available through separate portal.",
+      "required_documents": [
+        "W-9 form",
+        "Vendor registration through online portal",
+        "Contractor registration fee: $130 ($65 after July 1)",
+        "Surety bonds for demolition/excavation ($20,000) and sewer ($10,000)"
+      ],
+      "purchasing_threshold": "$25,000 - formal bidding required above this; informal quotations below",
+      "purchasing_contact": {
+        "name": "Lisa Subrin",
+        "title": "Purchasing Coordinator",
+        "email": "lsubrin@vah.com"
+      },
+      "notes": "Contractor registrations expire December 31 annually. Contact Building & Life Safety at 847-368-5560 for existing license linkage."
+    },
+    "palatine": {
+      "name": "Village of Palatine",
+      "website": "palatine.il.us",
+      "home_rule": true,
+      "bidding_platform": "eSuite OpenBidder (custom system by VOP IT)",
+      "vendor_registration": "Online through eSuite.OpenBidder portal (esuite.palatine.il.us/eSuite.OpenBidder/). Register to receive email notifications on future bids.",
+      "required_documents": [
+        "Contact information and business details via portal",
+        "Bid-specific documents available for download upon registration"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "department": "Village Manager's Office",
+        "phone": "847-358-7500",
+        "address": "200 East Wood Street, Palatine, IL 60067"
+      },
+      "notes": "All bids must be delivered to Village Manager's Office during business hours (8:00AM-4:00PM, Mon-Fri)."
+    },
+    "schaumburg": {
+      "name": "Village of Schaumburg",
+      "website": "villageofschaumburg.com",
+      "home_rule": true,
+      "bidding_platform": "ProcureNow (OpenGov e-Procurement Portal)",
+      "vendor_registration": "Online via ProcureNow portal (procurement.opengov.com/portal/villageofschaumburg). Subscribe to create account and receive notifications.",
+      "required_documents": [
+        "Registration through ProcureNow portal",
+        "Vendor demographic information per Public Act 102-0265"
+      ],
+      "purchasing_threshold": "$20,000 - formal competitive bidding above this; fast-track competitive process below $20,000",
+      "purchasing_contact": {
+        "email": "bids@schaumburg.com"
+      },
+      "notes": "Fully automated web-based system. Can follow solicitations, receive amendments/addenda, submit questions, and get answers online."
+    },
+    "glenview": {
+      "name": "Village of Glenview",
+      "website": "glenview.il.us",
+      "home_rule": true,
+      "bidding_platform": "DemandStar (exclusive - only accepts electronic responses via DemandStar)",
+      "vendor_registration": "Register through DemandStar. Free to download solicitations, upload responses, and receive notifications.",
+      "required_documents": [
+        "DemandStar registration",
+        "Bid-specific requirements per solicitation"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "email": "purchasing@glenview.il.us",
+        "phone": "847-724-1700",
+        "address": "2500 East Lake Avenue, Glenview, IL 60026"
+      },
+      "notes": "ALL solicitations released and accepted exclusively via DemandStar."
+    },
+    "wilmette": {
+      "name": "Village of Wilmette",
+      "website": "wilmette.gov",
+      "home_rule": true,
+      "bidding_platform": "DemandStar (exclusive for all formal solicitations)",
+      "vendor_registration": "Register through DemandStar at demandstar.com/app/registration. Free access 24/7/365.",
+      "required_documents": [
+        "DemandStar registration",
+        "Per Village Code Chapter 6, Article VI, Section 6-126"
+      ],
+      "purchasing_threshold": "Not publicly posted - see Village ordinance Section 6-126",
+      "purchasing_contact": {
+        "name": "Cliff Ruemmler",
+        "title": "Purchasing Manager",
+        "phone": "847-853-7619",
+        "email": "ruemmlerc@wilmette.com",
+        "additional_contacts": [
+          {
+            "name": "Melinda Molloy",
+            "title": "Finance Director",
+            "phone": "847-853-7646",
+            "email": "molloym@wilmette.com"
+          }
+        ]
+      },
+      "notes": "DemandStar technical support: support@demandstar.com. All RFBs, RFPs, RFIs, and RFQs go through DemandStar."
+    },
+    "northbrook": {
+      "name": "Village of Northbrook",
+      "website": "northbrook.il.us",
+      "home_rule": true,
+      "bidding_platform": "Own website (northbrook.il.us/Bids.aspx) plus DemandStar",
+      "vendor_registration": "Online Vendor Information Form at northbrook.il.us/FormCenter/Finance-14/2022-Vendor-Registration-Form-87. Collects demographic data per Public Act 102-0265.",
+      "required_documents": [
+        "Vendor Information Form",
+        "Demographic/diversity information",
+        "Bid-specific documents per solicitation"
+      ],
+      "purchasing_threshold": "$20,000 - formal bids/RFPs posted for purchases at or above this amount",
+      "purchasing_contact": {
+        "phone": "847-272-5050",
+        "address": "1225 Cedar Lane, Northbrook, IL 60062"
+      },
+      "notes": "Email notification signup available for bid postings. Contact person listed individually per bid."
+    },
+    "highland_park": {
+      "name": "City of Highland Park",
+      "website": "cityhpil.com",
+      "home_rule": true,
+      "bidding_platform": "BidNet Direct / MITN Purchasing Group",
+      "vendor_registration": "Through BidNet Direct / MITN platform",
+      "required_documents": [
+        "Per bid specifications",
+        "Vendor/contractor notification to Project Manager when bids are downloaded"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "phone": "847-432-0800 (Finance Office)",
+        "phone_city_hall": "847-926-1000",
+        "address": "1707 St. Johns Avenue, Highland Park, IL 60035"
+      },
+      "notes": "City Hall walk-in hours: Tues-Fri 8:30AM-5PM. Bids posted on cityhpil.com and BidNet Direct."
+    },
+    "deerfield": {
+      "name": "Village of Deerfield",
+      "website": "deerfield.il.us",
+      "home_rule": true,
+      "bidding_platform": "Own website (deerfield.il.us/Bids.aspx) with OpenGov contractor registration",
+      "vendor_registration": "Contractor registration via OpenGov portal (deerfieldil.viewpointcloud.com). Must register as official plan holder for each project to receive addendum notifications and download bid documents.",
+      "required_documents": [
+        "Website account creation",
+        "Plan holder registration per project",
+        "Bid-specific documents"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "phone": "847-945-5000",
+        "address": "Village Hall, Deerfield, IL"
+      },
+      "notes": "Village Hall hours: Mon-Fri 8AM-4:30PM, closed noon-1PM. Email/text notifications available for new bids."
+    },
+    "des_plaines": {
+      "name": "City of Des Plaines",
+      "website": "desplainesil.gov",
+      "home_rule": true,
+      "bidding_platform": "Own website (desplainesil.gov/i-want-to/find/bids-and-proposals)",
+      "vendor_registration": "Contact Finance Department directly",
+      "required_documents": [
+        "Per bid specifications"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "department": "Finance Department",
+        "website": "desplainesil.gov"
+      },
+      "notes": "Website redirects from desplaines.org to desplainesil.gov. Bids posted under 'I Want To > Find > Bids and Proposals'."
+    },
+    "mount_prospect": {
+      "name": "Village of Mount Prospect",
+      "website": "mountprospect.org",
+      "home_rule": true,
+      "bidding_platform": "DemandStar and BidNet Direct",
+      "vendor_registration": "Online Vendor Registration Form through Finance Department. Updated demographic survey sent to all active vendors.",
+      "required_documents": [
+        "Vendor Registration Form",
+        "Demographic information per Public Act 102-0265",
+        "Bid-specific documents per solicitation"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "phone": "847-392-6000",
+        "address": "50 S Emerson St, Mount Prospect, IL 60056"
+      },
+      "notes": "Contractors can subscribe to automatic notification service for sealed bids in their service category."
+    },
+    "buffalo_grove": {
+      "name": "Village of Buffalo Grove",
+      "website": "vbg.org",
+      "home_rule": true,
+      "bidding_platform": "BidNet Direct / Vendor Registry",
+      "vendor_registration": "Online through Vendor Registry (vrapp.vendorregistry.com). Also available via BidNet Direct Illinois Purchasing Group (free 'Limited Access' option).",
+      "required_documents": [
+        "Vendor Registry registration",
+        "Diversity/demographic information per Public Act 102-0265 (minority, women, veteran-owned, small business status)"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "department": "Administrative Services",
+        "phone": "847-459-2500",
+        "email": "info@vbg.org",
+        "address": "50 Raupp Boulevard, Buffalo Grove, IL 60089"
+      },
+      "notes": "Central purchasing handles all RFPs, RFQs, bids and contracts. Vendor list published per HB 453/Public Act 102-0265. Free registration via BidNet Direct Limited Access for email notifications."
+    },
+    "vernon_hills": {
+      "name": "Village of Vernon Hills",
+      "website": "vernonhills.org",
+      "home_rule": true,
+      "bidding_platform": "Own website (vernonhills.org/Bids.aspx)",
+      "vendor_registration": "Contact Village directly",
+      "required_documents": [
+        "Per bid specifications"
+      ],
+      "purchasing_threshold": "$25,000 - open bids posted for contracts over this amount",
+      "purchasing_contact": {
+        "phone": "847-367-3700",
+        "address": "290 Evergreen Drive, Vernon Hills, IL 60061"
+      },
+      "notes": "Bids also listed on BidNet Direct and Illinois Bids aggregator sites."
+    },
+    "libertyville": {
+      "name": "Village of Libertyville",
+      "website": "libertyville.com",
+      "home_rule": true,
+      "bidding_platform": "Own website (libertyville.com/bids.aspx) via CivicEngage",
+      "vendor_registration": "Contact Village directly. Sealed bids submitted to Village Hall.",
+      "required_documents": [
+        "Per bid specifications"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "phone": "847-362-2430",
+        "address": "118 West Cook Avenue, Libertyville, IL 60048"
+      },
+      "notes": "Bids submitted to Village Hall at 118 W. Cook Ave. Lake County also posts regional opportunities."
+    },
+    "waukegan": {
+      "name": "City of Waukegan",
+      "website": "waukeganil.gov",
+      "home_rule": true,
+      "bidding_platform": "DemandStar plus own website (waukeganil.gov/Bids.aspx)",
+      "vendor_registration": "Online Vendor Registration Form at waukeganil.gov/FormCenter",
+      "required_documents": [
+        "Completed and signed W-9",
+        "Certificate of Good Standing",
+        "Assumed Business Name Certificate",
+        "State registration certificate (for non-Illinois vendors)",
+        "Business Enterprise Program certifications if applicable (BEP, MBE, FBE, VBP)",
+        "FEIN (Federal Employer ID Number)",
+        "DUNS Number (optional)"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "email": "wkpurchasing@waukeganil.gov",
+        "phone": "847-599-2500",
+        "address": "100 N Martin Luther King Jr. Avenue, Waukegan, IL 60085"
+      },
+      "notes": "Most detailed vendor registration requirements of all municipalities researched. Separate forms for corporations/LLCs, sole proprietors, and non-Illinois vendors."
+    },
+    "lake_forest": {
+      "name": "City of Lake Forest",
+      "website": "cityoflakeforest.com",
+      "home_rule": true,
+      "bidding_platform": "QuestCDN (for construction bids and bid tabs)",
+      "vendor_registration": "Through QuestCDN platform",
+      "required_documents": [
+        "QuestCDN registration",
+        "Per bid specifications"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "phone": "847-234-2600",
+        "email": "cityhall@cityoflakeforest.com"
+      },
+      "notes": "Preliminary bid results posted on QuestCDN within one hour of bid closing. Unique among these municipalities in using QuestCDN."
+    },
+    "mundelein": {
+      "name": "Village of Mundelein",
+      "website": "mundelein.org",
+      "home_rule": false,
+      "bidding_platform": "Own website (mundelein.org/Bids.aspx) via CivicEngage",
+      "vendor_registration": "Contact Village directly",
+      "required_documents": [
+        "Sealed proposals per bid specifications"
+      ],
+      "purchasing_threshold": "$25,000 (state law applies - non-home rule)",
+      "purchasing_contact": {
+        "phone": "847-949-3200",
+        "email": "info@mundelein.org",
+        "address": "300 Plaza Circle, Mundelein, IL 60060"
+      },
+      "notes": "Smaller municipality with less formal online procurement infrastructure. Bids posted on CivicEngage platform."
+    },
+    "gurnee": {
+      "name": "Village of Gurnee",
+      "website": "gurnee.il.us",
+      "home_rule": true,
+      "bidding_platform": "DemandStar plus own website and LiquidFiles (FTP for construction documents)",
+      "vendor_registration": "Register through DemandStar (call 1-800-331-5537) or at demandstar.com. W-9 required. Vendor Self Service portal available.",
+      "required_documents": [
+        "W-9 form",
+        "DemandStar registration",
+        "IDOT Certificate of Eligibility (Form BC-733) for certain projects",
+        "IDOT Prequalification certificates for applicable projects",
+        "Proposal guarantees for certain projects"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "department": "Finance Division",
+        "email": "finance@village.gurnee.il.us",
+        "phone": "847-599-7500",
+        "additional_contacts": [
+          {
+            "name": "Austin Pollack",
+            "role": "RFPs and newsletter services"
+          },
+          {
+            "name": "Craig Lambrecht",
+            "role": "Fleet Management/fuel bids",
+            "phone": "847-599-6881"
+          },
+          {
+            "name": "Brett Fritzler",
+            "role": "Water Utility Manager",
+            "phone": "847-599-6800"
+          }
+        ]
+      },
+      "notes": "Uses LiquidFiles FTP for large construction document transfers. Sign up for Bids/RFPs Notices Listserv for updates."
+    },
+    "park_ridge": {
+      "name": "City of Park Ridge",
+      "website": "parkridge.us",
+      "home_rule": true,
+      "bidding_platform": "DemandStar (Euna OpenBids)",
+      "vendor_registration": "Online through OpenBids (DemandStar). New vendors complete Vendor Information Form with W-9 upload.",
+      "required_documents": [
+        "Vendor Information Form",
+        "W-9",
+        "Sealed envelope with bidder name, time/date of deadline, project number, and project name"
+      ],
+      "purchasing_threshold": "Not publicly posted",
+      "purchasing_contact": {
+        "title": "Procurement Officer",
+        "email": "bflowers@parkridge.us",
+        "phone": "847-318-7948",
+        "alternate_email": "procurement@parkridge.us",
+        "address": "505 Butler Place, Park Ridge, IL 60068"
+      },
+      "notes": "Bids due by 10:00 AM on specified bid day. Late submissions returned. OpenBids provides automatic notifications and online response submission."
+    }
+  },
+  "platform_summary": {
+    "DemandStar": ["Evanston", "Glenview", "Wilmette", "Northbrook", "Mount Prospect", "Waukegan", "Gurnee", "Park Ridge"],
+    "BidNet_Direct": ["Highland Park (MITN)", "Buffalo Grove", "Mount Prospect"],
+    "ProcureNow_OpenGov": ["Schaumburg"],
+    "QuestCDN": ["Lake Forest"],
+    "eSuite_OpenBidder": ["Palatine"],
+    "Vendor_Registry": ["Buffalo Grove"],
+    "Own_Website_Only": ["Skokie", "Deerfield", "Des Plaines", "Vernon Hills", "Libertyville", "Mundelein"]
+  }
+}

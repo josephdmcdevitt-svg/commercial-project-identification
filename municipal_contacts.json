@@ -1,0 +1,434 @@
+[
+  {
+    "entity": "Village of Palatine",
+    "type": "Municipality",
+    "contact_name": "Matt Barry",
+    "contact_title": "Director of Public Works",
+    "phone": "847-705-5200",
+    "email": "mbarry@palatine.il.us",
+    "source": "palatine.il.us/Directory.aspx?did=10"
+  },
+  {
+    "entity": "Village of Arlington Heights",
+    "type": "Municipality",
+    "contact_name": "Cris Papierniak, PE",
+    "contact_title": "Director of Public Works & Engineering",
+    "phone": "847-368-5800",
+    "email": "cpapierniak@vah.com",
+    "source": "vah.com/government/departments/public_works/index.php"
+  },
+  {
+    "entity": "Village of Wilmette",
+    "type": "Municipality",
+    "contact_name": "Dan Manis, P.E.",
+    "contact_title": "Director of Engineering & Public Works",
+    "phone": "847-853-7602",
+    "email": "manisd@wilmette.com",
+    "source": "wilmette.gov/Directory.aspx?did=8"
+  },
+  {
+    "entity": "Village of Buffalo Grove",
+    "type": "Municipality",
+    "contact_name": "Michael Skibbe",
+    "contact_title": "Deputy Village Manager/Public Works Director",
+    "phone": "847-459-2525",
+    "email": "mskibbe@vbg.org",
+    "source": "vbg.org/Directory.aspx?did=13"
+  },
+  {
+    "entity": "Village of Vernon Hills",
+    "type": "Municipality",
+    "contact_name": "Christopher Venatta",
+    "contact_title": "Director of Public Works / Village Engineer",
+    "phone": "847-918-3544",
+    "email": "christopherv@vhills.org",
+    "source": "vernonhills.org/Directory.aspx?did=9"
+  },
+  {
+    "entity": "Village of Hoffman Estates",
+    "type": "Municipality",
+    "contact_name": "Joseph Nebel",
+    "contact_title": "Director of Public Works",
+    "phone": "(847) 490-6800",
+    "email": "joseph.nebel@vohe.org",
+    "source": "hoffmanestates.org/government/departments/public_works/index.php"
+  },
+  {
+    "entity": "City of Park Ridge",
+    "type": "Municipality",
+    "contact_name": "Sarah Mitchell",
+    "contact_title": "Director of Public Works",
+    "phone": "(847) 318-5227",
+    "email": null,
+    "source": "parkridge.us/publicworks"
+  },
+  {
+    "entity": "Village of Lake Zurich",
+    "type": "Municipality",
+    "contact_name": "Michael J. Brown",
+    "contact_title": "Director of Public Works",
+    "phone": "847-540-5066",
+    "email": "Mike.Brown@LakeZurich.org",
+    "source": "lakezurich.org/62/Public-Works"
+  },
+  {
+    "entity": "City of Rolling Meadows",
+    "type": "Municipality",
+    "contact_name": "Aaron Grosskopf",
+    "contact_title": "Public Works Director",
+    "phone": "847-963-0500",
+    "email": null,
+    "source": "cityrm.org/Directory.aspx?did=11"
+  },
+  {
+    "entity": "Village of Niles",
+    "type": "Municipality",
+    "contact_name": "Stephen Quinn",
+    "contact_title": "Director of Public Works",
+    "phone": "847-588-7900",
+    "email": null,
+    "source": "vniles.com/Directory.aspx?did=116"
+  },
+  {
+    "entity": "Village of Libertyville",
+    "type": "Municipality",
+    "contact_name": "Paul K. Kendzior, PE, CFM",
+    "contact_title": "Director of Public Works",
+    "phone": "847-918-2100",
+    "email": "pkendzior@libertyville.com",
+    "source": "libertyville.com/Directory.aspx?did=5"
+  },
+  {
+    "entity": "City of Evanston",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Agency Director",
+    "phone": "(847) 448-4311",
+    "email": null,
+    "source": "Could not find specific director contact. 311 Center: (847) 448-4311 is recommended contact for routing to correct staff."
+  },
+  {
+    "entity": "Village of Skokie",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": "847-933-8427",
+    "email": null,
+    "source": "Public Works main number from skokie.org/directory.aspx. Director name not found in accessible directory pages. Call 847-673-0500 for main village line."
+  },
+  {
+    "entity": "Village of Schaumburg",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "villageofschaumburg.com returned 403 errors on staff directory pages. Contact main village: (847) 895-4500."
+  },
+  {
+    "entity": "Village of Glenview",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "glenview.il.us Public Works pages returned 404. Contact main village number for directory assistance."
+  },
+  {
+    "entity": "City of Des Plaines",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "desplainesil.gov returned 403 errors on directory/department pages. Contact main city line."
+  },
+  {
+    "entity": "Village of Mount Prospect",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "mountprospect.org returned 403 errors on staff directory pages. Contact main village number."
+  },
+  {
+    "entity": "Village of Northbrook",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": "847-272-5050",
+    "email": null,
+    "source": "northbrook.il.us directory pages returned 404. Main village number: 847-272-5050."
+  },
+  {
+    "entity": "City of Highland Park",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "cityhpil.com pages returned 404 errors. Contact city main line."
+  },
+  {
+    "entity": "Village of Deerfield",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": "847-317-7245",
+    "email": null,
+    "source": "Public Works general number from deerfield.il.us. Director name not accessible via web directory. Village Hall: 847-945-5000."
+  },
+  {
+    "entity": "Village of Morton Grove",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "mortongroveil.org returned 403 errors on directory pages. Contact village main line."
+  },
+  {
+    "entity": "Village of Wheeling",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": "847-279-6900",
+    "email": null,
+    "source": "Public Works general number from wheelingil.gov. Director name not found in accessible directory pages. Village main: 847-459-2600."
+  },
+  {
+    "entity": "Village of Elk Grove Village",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "elkgrove.org returned 403 errors. Contact main village line."
+  },
+  {
+    "entity": "City of Waukegan",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": "847-360-0944",
+    "email": null,
+    "source": "Public Works general number from waukeganil.gov. Director name not in accessible directory pages. City Hall: 847-599-2500."
+  },
+  {
+    "entity": "Village of Mundelein",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": "847-949-3270",
+    "email": "pwdept@mundelein.org",
+    "source": "mundelein.org directory. Department email provided; director name not found on accessible pages. Village main: 847-949-3200."
+  },
+  {
+    "entity": "Village of Gurnee",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "gurnee.il.us directory pages returned 404. Village Hall: 847-599-7500."
+  },
+  {
+    "entity": "City of Lake Forest",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "cityoflakeforest.com pages returned 404. Contact city main line."
+  },
+  {
+    "entity": "Village of Barrington",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "barrington-il.gov directory/department pages returned 404. Contact village main line."
+  },
+  {
+    "entity": "Village of Antioch",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": null,
+    "email": null,
+    "source": "antioch.il.gov returned 403 errors. Contact village main line."
+  },
+  {
+    "entity": "Village of Grayslake",
+    "type": "Municipality",
+    "contact_name": null,
+    "contact_title": "Public Works Director",
+    "phone": "847-223-8515",
+    "email": null,
+    "source": "Public Works general number from villageofgrayslake.com. Director name not in directory. Located at 585 Berry Avenue."
+  },
+  {
+    "entity": "Stevenson HSD 125",
+    "type": "School District",
+    "contact_name": "Habib Osman",
+    "contact_title": "Director of Facilities & Operations",
+    "phone": "847-415-4488",
+    "email": "hosman@d125.org",
+    "source": "d125.org/about/administrative-team"
+  },
+  {
+    "entity": "Evanston Township HSD 202",
+    "type": "School District",
+    "contact_name": "John Crawford",
+    "contact_title": "Director of Operations & Sustainability",
+    "phone": "(847) 424-7405",
+    "email": "crawfordj@eths202.org",
+    "source": "eths202.org/about/operations-facilities"
+  },
+  {
+    "entity": "Barrington CUSD 220",
+    "type": "School District",
+    "contact_name": "Nichole Satera",
+    "contact_title": "Director of Facilities",
+    "phone": "(847) 842-3282",
+    "email": "satera@barrington220.org",
+    "source": "barrington220.org/departments/business-services"
+  },
+  {
+    "entity": "Township HSD 211",
+    "type": "School District",
+    "contact_name": null,
+    "contact_title": "Facilities/Buildings & Grounds Director",
+    "phone": "(847) 755-6600",
+    "email": null,
+    "source": "adc.d211.org - directory pages returned 404. District main: (847) 755-6600."
+  },
+  {
+    "entity": "Township HSD 214",
+    "type": "School District",
+    "contact_name": null,
+    "contact_title": "Facilities/Operations Director",
+    "phone": null,
+    "email": null,
+    "source": "d214.org returned 404 on leadership/staff pages. Contact district office."
+  },
+  {
+    "entity": "Niles Township HSD 219",
+    "type": "School District",
+    "contact_name": null,
+    "contact_title": "Facilities Director",
+    "phone": null,
+    "email": null,
+    "source": "niles-hs.k12.il.us returned 526 TLS errors. Contact district office."
+  },
+  {
+    "entity": "New Trier HSD 203",
+    "type": "School District",
+    "contact_name": null,
+    "contact_title": "Director of Physical Plant Services",
+    "phone": "847-446-7000",
+    "email": null,
+    "source": "newtrier.k12.il.us - Physical Plant Services staff directory has 86 staff but director not visible on accessible pages. Main: 847-446-7000."
+  },
+  {
+    "entity": "Waukegan CUSD 60",
+    "type": "School District",
+    "contact_name": null,
+    "contact_title": "Director of Maintenance and Facilities",
+    "phone": "224-303-1000",
+    "email": null,
+    "source": "wps60.org - maintenance and facilities department exists but director contact not on accessible pages. Main: 224-303-1000."
+  },
+  {
+    "entity": "Northbrook Park District",
+    "type": "Park District",
+    "contact_name": "James Kim",
+    "contact_title": "Director of Parks & Properties",
+    "phone": "847-291-2960",
+    "email": null,
+    "source": "nbparks.org/about/staff-directory (email via contact form on site)"
+  },
+  {
+    "entity": "Arlington Heights Park District",
+    "type": "Park District",
+    "contact_name": "Brian Meyer",
+    "contact_title": "Director of Recreation & Facilities",
+    "phone": "847-506-7130",
+    "email": "bmeyer@ahpd.org",
+    "source": "ahpd.org/about/staff-directory"
+  },
+  {
+    "entity": "Glenview Park District",
+    "type": "Park District",
+    "contact_name": "Kris Mikkelsen",
+    "contact_title": "Superintendent of Parks & Facilities",
+    "phone": "224-521-2325",
+    "email": "kris.mikkelsen@glenviewparks.org",
+    "source": "glenviewparks.org/about/staff-directory"
+  },
+  {
+    "entity": "Waukegan Park District",
+    "type": "Park District",
+    "contact_name": "Jon Beckmann, MBA, CPRE",
+    "contact_title": "Director of Finance & Operations",
+    "phone": "(847) 360-4715",
+    "email": "jbeckmann@waukeganparks.org",
+    "source": "waukeganparks.org/about/staff"
+  },
+  {
+    "entity": "Skokie Park District",
+    "type": "Park District",
+    "contact_name": "Corrie Guynn, CPRP, CPSI, CA, CPO",
+    "contact_title": "Superintendent of Parks, Planning & Facilities",
+    "phone": "(847) 929-7802",
+    "email": "cguynn@skokieparks.org",
+    "source": "skokieparks.org/service/contact/"
+  },
+  {
+    "entity": "Schaumburg Park District",
+    "type": "Park District",
+    "contact_name": null,
+    "contact_title": "Facilities/Parks Director",
+    "phone": null,
+    "email": null,
+    "source": "parkfun.com returned 404 on staff/directory pages. Contact district main line."
+  },
+  {
+    "entity": "Palatine Park District",
+    "type": "Park District",
+    "contact_name": null,
+    "contact_title": "Director of Parks and Planning",
+    "phone": null,
+    "email": null,
+    "source": "palatineparks.org staff directory pages did not render contact details. Contact district office."
+  },
+  {
+    "entity": "Hoffman Estates Park District",
+    "type": "Park District",
+    "contact_name": null,
+    "contact_title": "Facilities/Parks Director",
+    "phone": null,
+    "email": null,
+    "source": "heparks.org returned 403 errors. Contact district main line."
+  },
+  {
+    "entity": "Highland Park Park District (PDHP)",
+    "type": "Park District",
+    "contact_name": null,
+    "contact_title": "Facilities/Parks Director",
+    "phone": null,
+    "email": null,
+    "source": "pdhp.org returned 403 errors on staff/contact pages. Contact district main line."
+  },
+  {
+    "entity": "Libertyville Park District",
+    "type": "Park District",
+    "contact_name": null,
+    "contact_title": "Facilities/Parks Director",
+    "phone": null,
+    "email": null,
+    "source": "libertyvilleparks.org returned ECONNREFUSED errors. Contact district by phone."
+  }
+]
