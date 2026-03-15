@@ -825,6 +825,33 @@ elif page == "Email Sender":
     st.markdown("## Auto Email Sender")
     st.markdown("Queue cold outreach emails and send them with random delays (10-60 sec) to avoid spam filters.")
 
+    # CSV Export section at top
+    st.markdown("### Export Outreach-Ready CSV")
+    st.markdown("Pre-written emails for every target with contact info. Import into your email automation tool.")
+    if st.button("Generate Outreach CSV", type="primary", use_container_width=True):
+        import subprocess
+        result = subprocess.run(["python3", os.path.join(os.path.dirname(__file__), "generate_outreach_csv.py")],
+                              capture_output=True, text=True, cwd=os.path.dirname(__file__))
+        st.success("CSV generated!")
+
+    csv_path = os.path.join(os.path.dirname(__file__), "outreach_ready.csv")
+    if os.path.exists(csv_path):
+        with open(csv_path, "r") as f:
+            csv_data = f.read()
+        lines = csv_data.strip().split("\n")
+        email_ready = len([l for l in lines[1:] if "Ready to Send" in l])
+        phone_first = len([l for l in lines[1:] if "Phone First" in l])
+        st.markdown(f"**{len(lines)-1} contacts** — {email_ready} ready to email, {phone_first} need phone first")
+        st.download_button("Download Outreach CSV", csv_data, "shack_shine_outreach.csv", "text/csv", use_container_width=True)
+        st.markdown("""
+        **CSV columns:** Entity, Type, Town, County, Contact Name, Email, Phone, Subject Line, Email Body, Priority Tier, Est Revenue, Website, Notes, Status
+
+        **Status values:**
+        - `Ready to Send` — has email, pre-written subject + body ready to go
+        - `Phone First` — has phone but no email, call to get email then send
+        """)
+    st.divider()
+
     # Email config
     email_config = load_json("email_config.json", {})
 
