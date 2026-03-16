@@ -3,7 +3,13 @@ import pandas as pd
 import json
 import os
 import math
+import xml.etree.ElementTree as ET
 from datetime import datetime, date, timedelta
+try:
+    from urllib.request import urlopen, Request
+    from urllib.error import URLError
+except ImportError:
+    pass
 
 st.set_page_config(page_title="Commercial Project Identification", layout="wide", page_icon="🏢")
 
@@ -448,6 +454,7 @@ with st.sidebar:
         "Proposal Generator",
         "Service Packages",
         "Bid Package",
+        "Live Bid Feed",
         "Company Profile",
         "Contract Template",
         "Vendor Registration",
@@ -1740,6 +1747,189 @@ elif page == "Bid Package":
     | **Over $40,000** | Formal sealed bid / RFP process required |
 
     **This means:** For many exterior cleaning jobs under $25K, a municipality can just hire you directly. No formal bid needed. That's why cold outreach to facilities directors works — they can sign off on smaller jobs themselves.
+    """)
+
+# ============================================================
+# LIVE BID FEED
+# ============================================================
+elif page == "Live Bid Feed":
+    st.markdown("## Live Bid Feed")
+    st.markdown("Real-time bid opportunities pulled from government procurement platforms.")
+
+    # RSS Feed sources
+    RSS_FEEDS = {
+        "Cook County (Bonfire)": "https://cookcountyil.bonfirehub.com/opportunities/rss",
+    }
+
+    # SAM.gov API
+    SAM_API_BASE = "https://api.sam.gov/opportunities/v2/search"
+
+    @st.cache_data(ttl=900)  # Cache for 15 minutes
+    def fetch_rss_feed(url, source_name):
+        """Fetch and parse an RSS feed."""
+        try:
+            req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            response = urlopen(req, timeout=15)
+            xml_data = response.read()
+            root = ET.fromstring(xml_data)
+
+            items = []
+            for item in root.findall(".//item"):
+                title = item.findtext("title", "").strip()
+                description = item.findtext("description", "").strip()
+                link = item.findtext("link", "").strip()
+                pub_date = item.findtext("pubDate", "").strip()
+
+                # Check if it might be relevant to exterior maintenance
+                keywords = ["clean", "wash", "window", "gutter", "exterior", "maintenance",
+                           "building", "facility", "janitorial", "landscap", "grounds",
+                           "pressure", "power wash", "custod", "repair", "paint",
+                           "roof", "seal", "restoration", "graffiti"]
+                text = (title + " " + description).lower()
+                is_relevant = any(kw in text for kw in keywords)
+
+                items.append({
+                    "title": title,
+                    "description": description,
+                    "link": link,
+                    "pub_date": pub_date,
+                    "source": source_name,
+                    "relevant": is_relevant,
+                })
+            return items
+        except Exception as e:
+            return [{"title": f"Error fetching {source_name}", "description": str(e),
+                    "link": "", "pub_date": "", "source": source_name, "relevant": False}]
+
+    @st.cache_data(ttl=900)
+    def fetch_sam_gov(api_key, naics="561790", state="IL"):
+        """Fetch opportunities from SAM.gov API."""
+        if not api_key:
+            return []
+        try:
+            from_date = (date.today() - timedelta(days=90)).strftime("%m/%d/%Y")
+            to_date = date.today().strftime("%m/%d/%Y")
+            url = f"{SAM_API_BASE}?api_key={api_key}&postedFrom={from_date}&postedTo={to_date}&ncode={naics}&state={state}&limit=50"
+            req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            response = urlopen(req, timeout=15)
+            data = json.loads(response.read())
+
+            items = []
+            for opp in data.get("opportunitiesData", []):
+                items.append({
+                    "title": opp.get("title", ""),
+                    "description": opp.get("description", "")[:300],
+                    "link": f"https://sam.gov/opp/{opp.get('noticeId', '')}",
+                    "pub_date": opp.get("postedDate", ""),
+                    "source": "SAM.gov (Federal)",
+                    "relevant": True,
+                    "deadline": opp.get("responseDeadLine", ""),
+                    "department": opp.get("department", ""),
+                })
+            return items
+        except Exception as e:
+            return [{"title": f"SAM.gov Error", "description": str(e),
+                    "link": "", "pub_date": "", "source": "SAM.gov", "relevant": False}]
+
+    # Settings
+    with st.expander("Feed Settings", expanded=False):
+        st.markdown("**SAM.gov API Key** (optional — for federal contract opportunities)")
+        sam_key = st.text_input("SAM.gov API Key", type="password",
+                               help="Get a free key at sam.gov → Sign In → Profile → API Keys")
+        show_all = st.checkbox("Show all bids (not just relevant ones)", value=False)
+        st.markdown("""
+        **Currently monitoring:**
+        - Cook County Bonfire — all county procurement opportunities (real-time RSS)
+        - SAM.gov — federal contracts in Illinois for NAICS 561790 (if API key provided)
+
+        Feeds refresh every 15 minutes automatically.
+        """)
+
+    st.divider()
+
+    # Fetch feeds
+    all_items = []
+    with st.spinner("Fetching live bids..."):
+        for name, url in RSS_FEEDS.items():
+            items = fetch_rss_feed(url, name)
+            all_items.extend(items)
+
+        if sam_key:
+            sam_items = fetch_sam_gov(sam_key)
+            all_items.extend(sam_items)
+
+    # Filter
+    if not show_all:
+        relevant = [i for i in all_items if i.get("relevant")]
+        other = [i for i in all_items if not i.get("relevant")]
+    else:
+        relevant = all_items
+        other = []
+
+    # Display relevant bids
+    st.markdown(f"### Relevant Opportunities ({len(relevant)})")
+    if relevant:
+        for item in relevant:
+            with st.container():
+                bc1, bc2 = st.columns([4, 1])
+                with bc1:
+                    if item.get("link"):
+                        st.markdown(f"**[{item['title']}]({item['link']})**")
+                    else:
+                        st.markdown(f"**{item['title']}**")
+                    desc = item.get("description", "")
+                    if len(desc) > 200:
+                        desc = desc[:200] + "..."
+                    st.caption(desc)
+                with bc2:
+                    st.caption(item.get("source", ""))
+                    if item.get("pub_date"):
+                        st.caption(item["pub_date"][:16])
+                    if item.get("deadline"):
+                        st.caption(f"Due: {item['deadline']}")
+
+                    # Quick add to bid tracker
+                    if st.button("Track", key=f"track_{hash(item['title'])}", use_container_width=True):
+                        st.session_state.bids.append({
+                            "entity": item["title"][:100],
+                            "service": "Multiple Services",
+                            "source": item.get("source", "Live Feed"),
+                            "url": item.get("link", ""),
+                            "deadline": item.get("deadline", (date.today() + timedelta(days=30)).isoformat()),
+                            "amount": 0,
+                            "status": "New",
+                            "notes": item.get("description", "")[:300],
+                            "date_added": date.today().isoformat()
+                        })
+                        save_all()
+                        st.success(f"Added to bid tracker!")
+                st.divider()
+    else:
+        st.info("No relevant exterior maintenance bids found right now. Check back — feeds refresh every 15 minutes.")
+
+    # Show other bids in collapsed section
+    if other and not show_all:
+        with st.expander(f"All Other Bids ({len(other)})", expanded=False):
+            for item in other[:50]:
+                if item.get("link"):
+                    st.markdown(f"- [{item['title']}]({item['link']}) — *{item.get('source', '')}*")
+                else:
+                    st.markdown(f"- {item['title']} — *{item.get('source', '')}*")
+
+    st.divider()
+    st.markdown("""
+    ### How This Works
+
+    **Cook County Bonfire** — Real-time RSS feed of all Cook County procurement opportunities. Auto-filters for exterior maintenance, cleaning, building, and facility-related keywords.
+
+    **SAM.gov** (optional) — Federal contracts in Illinois under NAICS 561790 (Services to Buildings & Dwellings). Requires a free API key from sam.gov.
+
+    **Coming soon:** DemandStar email alert parsing, Lake County monitoring, BidBuy scraping.
+
+    **When you see a bid you want:**
+    1. Click **Track** to add it to your Active Bids page
+    2. Click the title link to view full bid details on the source site
+    3. Review scope, prepare your bid, submit through the platform
     """)
 
 # ============================================================
