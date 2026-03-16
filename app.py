@@ -455,6 +455,7 @@ with st.sidebar:
         "Service Packages",
         "Bid Package",
         "Live Bid Feed",
+        "Unit Economics",
         "Company Profile",
         "Contract Template",
         "Vendor Registration",
@@ -1947,6 +1948,279 @@ elif page == "Live Bid Feed":
     2. Click the title link to view full bid details on the source site
     3. Review scope, prepare your bid, submit through the platform
     """)
+
+# ============================================================
+# UNIT ECONOMICS
+# ============================================================
+elif page == "Unit Economics":
+    st.markdown("## Unit Economics — LTV / CAC Analysis")
+    st.markdown("Understand which target segments are most profitable to pursue.")
+
+    econ = load_json("unit_economics.json", {})
+
+    with st.expander("Configure Your Costs", expanded=not bool(econ.get("hourly_rate"))):
+        with st.form("econ_config"):
+            st.markdown("**Your Cost Inputs** — these drive the LTV/CAC calculations")
+            ec1, ec2, ec3 = st.columns(3)
+            with ec1:
+                st.markdown("**Labor & Operations**")
+                hourly_rate = st.number_input("Your hourly labor cost ($/hr)", min_value=0, value=int(econ.get("hourly_rate", 35)), step=5,
+                                             help="What you pay per crew hour including wages, benefits, fuel")
+                gross_margin = st.number_input("Gross margin (%)", min_value=0, max_value=100, value=int(econ.get("gross_margin", 45)), step=5,
+                                             help="Revenue minus direct costs (labor, materials, fuel)")
+            with ec2:
+                st.markdown("**Acquisition Costs**")
+                hrs_per_outreach = st.number_input("Hours per cold outreach cycle", min_value=0.0, value=float(econ.get("hrs_per_outreach", 0.5)), step=0.25,
+                                                  help="Time to research, write email, follow up for one target")
+                hrs_per_site_visit = st.number_input("Hours per site visit + quote", min_value=0.0, value=float(econ.get("hrs_per_site_visit", 2.0)), step=0.5,
+                                                    help="Drive time + walk-through + write proposal")
+                hrs_per_bid = st.number_input("Hours per formal bid response", min_value=0.0, value=float(econ.get("hrs_per_bid", 4.0)), step=0.5,
+                                             help="Time to prepare a full sealed bid / RFP response")
+            with ec3:
+                st.markdown("**Conversion Rates**")
+                cold_to_response = st.number_input("Cold email → response rate (%)", min_value=0, max_value=100, value=int(econ.get("cold_to_response", 8)), step=1)
+                response_to_quote = st.number_input("Response → site visit/quote (%)", min_value=0, max_value=100, value=int(econ.get("response_to_quote", 50)), step=5)
+                quote_to_close = st.number_input("Quote → close rate (%)", min_value=0, max_value=100, value=int(econ.get("quote_to_close", 30)), step=5)
+                bid_win_rate = st.number_input("Formal bid win rate (%)", min_value=0, max_value=100, value=int(econ.get("bid_win_rate", 20)), step=5)
+
+            ec4, ec5 = st.columns(2)
+            with ec4:
+                st.markdown("**Fixed Costs**")
+                portal_fees = st.number_input("Monthly portal/subscription fees ($)", min_value=0, value=int(econ.get("portal_fees", 100)), step=25,
+                                             help="DemandStar, BidPrime, etc.")
+                marketing_monthly = st.number_input("Monthly marketing spend ($)", min_value=0, value=int(econ.get("marketing_monthly", 200)), step=50)
+                assoc_fees = st.number_input("Annual association dues ($)", min_value=0, value=int(econ.get("assoc_fees", 500)), step=100,
+                                            help="CAI, BOMA, IREM memberships")
+            with ec5:
+                st.markdown("**Retention**")
+                avg_contract_years = st.number_input("Avg contract length (years)", min_value=0.5, value=float(econ.get("avg_contract_years", 3.0)), step=0.5)
+                renewal_rate = st.number_input("Contract renewal rate (%)", min_value=0, max_value=100, value=int(econ.get("renewal_rate", 75)), step=5)
+                annual_upsell = st.number_input("Annual upsell rate (%)", min_value=0, max_value=100, value=int(econ.get("annual_upsell", 10)), step=5,
+                                               help="% of clients who add services each year")
+
+            submitted = st.form_submit_button("Save & Calculate", use_container_width=True, type="primary")
+            if submitted:
+                econ = {
+                    "hourly_rate": hourly_rate, "gross_margin": gross_margin,
+                    "hrs_per_outreach": hrs_per_outreach, "hrs_per_site_visit": hrs_per_site_visit,
+                    "hrs_per_bid": hrs_per_bid, "cold_to_response": cold_to_response,
+                    "response_to_quote": response_to_quote, "quote_to_close": quote_to_close,
+                    "bid_win_rate": bid_win_rate, "portal_fees": portal_fees,
+                    "marketing_monthly": marketing_monthly, "assoc_fees": assoc_fees,
+                    "avg_contract_years": avg_contract_years, "renewal_rate": renewal_rate,
+                    "annual_upsell": annual_upsell,
+                }
+                save_json("unit_economics.json", econ)
+                st.success("Saved!")
+                st.rerun()
+
+    # Calculate LTV/CAC by segment
+    if econ.get("hourly_rate"):
+        hourly = econ["hourly_rate"]
+        margin = econ["gross_margin"] / 100
+        contract_yrs = econ["avg_contract_years"]
+        renewal = econ["renewal_rate"] / 100
+        upsell = econ["annual_upsell"] / 100
+
+        # Effective customer lifetime considering renewals
+        # Geometric series: years * (1 + renewal + renewal^2 + ...)
+        if renewal < 1:
+            effective_lifetime = contract_yrs / (1 - renewal)
+        else:
+            effective_lifetime = contract_yrs * 5  # cap at 5x
+
+        # Segment definitions with acquisition channel
+        segments = {
+            "Municipality": {"avg_revenue": 8000, "channel": "bid", "outreaches_to_win": 1},
+            "School District": {"avg_revenue": 15000, "channel": "bid", "outreaches_to_win": 1},
+            "Park District": {"avg_revenue": 6000, "channel": "bid", "outreaches_to_win": 1},
+            "Library District": {"avg_revenue": 3000, "channel": "cold", "outreaches_to_win": 1},
+            "Township": {"avg_revenue": 3000, "channel": "cold", "outreaches_to_win": 1},
+            "HOA/Condo Association": {"avg_revenue": 5000, "channel": "cold", "outreaches_to_win": 1},
+            "Property Manager": {"avg_revenue": 20000, "channel": "cold", "outreaches_to_win": 1},
+            "Shopping Center": {"avg_revenue": 15000, "channel": "cold", "outreaches_to_win": 1},
+            "Office Park": {"avg_revenue": 12000, "channel": "cold", "outreaches_to_win": 1},
+            "Apartment Complex": {"avg_revenue": 6000, "channel": "cold", "outreaches_to_win": 1},
+            "Car Dealership": {"avg_revenue": 4000, "channel": "cold", "outreaches_to_win": 1},
+            "Church/Religious": {"avg_revenue": 3500, "channel": "cold", "outreaches_to_win": 1},
+            "Hospital/Medical": {"avg_revenue": 18000, "channel": "cold", "outreaches_to_win": 1},
+            "Senior Living": {"avg_revenue": 6000, "channel": "cold", "outreaches_to_win": 1},
+            "Industrial Park": {"avg_revenue": 8000, "channel": "cold", "outreaches_to_win": 1},
+            "Other Commercial": {"avg_revenue": 5000, "channel": "cold", "outreaches_to_win": 1},
+        }
+
+        cold_rate = (econ["cold_to_response"] / 100) * (econ["response_to_quote"] / 100) * (econ["quote_to_close"] / 100)
+        bid_rate = econ["bid_win_rate"] / 100
+
+        results = []
+        for seg_name, seg in segments.items():
+            avg_rev = seg["avg_revenue"]
+
+            # LTV calculation
+            year1_rev = avg_rev * margin
+            # Account for upsell growth
+            ltv = 0
+            for yr in range(int(effective_lifetime)):
+                ltv += year1_rev * (1 + upsell) ** yr
+            ltv = round(ltv)
+
+            # CAC calculation
+            if seg["channel"] == "cold":
+                # Cold outreach: emails needed to get one close
+                if cold_rate > 0:
+                    emails_to_close = 1 / cold_rate
+                else:
+                    emails_to_close = 100
+                outreach_cost = emails_to_close * econ["hrs_per_outreach"] * hourly
+                site_visit_cost = econ["hrs_per_site_visit"] * hourly
+                cac = round(outreach_cost + site_visit_cost)
+            else:
+                # Formal bid: bids needed to win one
+                if bid_rate > 0:
+                    bids_to_win = 1 / bid_rate
+                else:
+                    bids_to_win = 10
+                bid_cost = bids_to_win * econ["hrs_per_bid"] * hourly
+                cac = round(bid_cost)
+
+            # LTV:CAC ratio
+            ratio = round(ltv / cac, 1) if cac > 0 else 0
+
+            # Payback period (months)
+            monthly_margin = (avg_rev * margin) / 12
+            payback = round(cac / monthly_margin, 1) if monthly_margin > 0 else 0
+
+            # Count targets in this segment
+            count = len([t for t in st.session_state.targets if t.get("type") == seg_name])
+
+            results.append({
+                "Segment": seg_name,
+                "Targets": count,
+                "Avg Annual Rev": avg_rev,
+                "LTV": ltv,
+                "CAC": cac,
+                "LTV:CAC": ratio,
+                "Payback (mo)": payback,
+                "Channel": seg["channel"].upper(),
+                "Verdict": "Excellent" if ratio >= 5 else ("Good" if ratio >= 3 else ("OK" if ratio >= 1.5 else "Poor")),
+            })
+
+        results_df = pd.DataFrame(results).sort_values("LTV:CAC", ascending=False)
+
+        # Summary cards
+        st.markdown("### Portfolio Summary")
+        total_addressable = sum(r["Avg Annual Rev"] * r["Targets"] for r in results)
+        avg_ltv_cac = results_df["LTV:CAC"].mean()
+        best_seg = results_df.iloc[0]["Segment"]
+        worst_seg = results_df.iloc[-1]["Segment"]
+
+        def fmt_money(val):
+            if val >= 1_000_000: return f"${val/1_000_000:.1f}M"
+            elif val >= 1_000: return f"${val/1_000:.0f}K"
+            else: return f"${val:,.0f}"
+
+        st.markdown(f"""
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 20px;">
+            <div class="stat-card">
+                <h1>{fmt_money(total_addressable)}</h1>
+                <p>Total Addressable Market</p>
+            </div>
+            <div class="stat-card">
+                <h1>{avg_ltv_cac:.1f}x</h1>
+                <p>Avg LTV:CAC Ratio</p>
+            </div>
+            <div class="stat-card">
+                <h1>{best_seg}</h1>
+                <p>Best Segment</p>
+            </div>
+            <div class="stat-card">
+                <h1>{worst_seg}</h1>
+                <p>Worst Segment</p>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+        # Results table
+        st.markdown("### Segment Breakdown")
+
+        def color_verdict(val):
+            colors = {
+                "Excellent": "background-color: #0d2b12; color: #3fb950",
+                "Good": "background-color: #0d2044; color: #58a6ff",
+                "OK": "background-color: #2d1f00; color: #f0883e",
+                "Poor": "background-color: #2d0b0b; color: #ff4757",
+            }
+            return colors.get(val, "")
+
+        styled = results_df.style.applymap(color_verdict, subset=["Verdict"]).format({
+            "Avg Annual Rev": "${:,.0f}",
+            "LTV": "${:,.0f}",
+            "CAC": "${:,.0f}",
+            "LTV:CAC": "{:.1f}x",
+            "Payback (mo)": "{:.1f}",
+        })
+        st.dataframe(styled, use_container_width=True, hide_index=True)
+
+        # Chart
+        st.markdown("### LTV vs CAC by Segment")
+        import plotly.express as px
+        fig = px.scatter(results_df, x="CAC", y="LTV", size="Targets", color="Verdict",
+                        hover_name="Segment", text="Segment",
+                        color_discrete_map={"Excellent": "#3fb950", "Good": "#58a6ff", "OK": "#f0883e", "Poor": "#ff4757"},
+                        labels={"CAC": "Customer Acquisition Cost ($)", "LTV": "Lifetime Value ($)"})
+        fig.update_traces(textposition="top center", textfont_size=10)
+        fig.update_layout(
+            plot_bgcolor="#0a0e27", paper_bgcolor="#0a0e27",
+            font_color="#e0e0e0", height=500,
+            xaxis=dict(tickprefix="$", gridcolor="#1a1f45"),
+            yaxis=dict(tickprefix="$", gridcolor="#1a1f45"),
+        )
+        # Add 3:1 reference line
+        max_cac = results_df["CAC"].max() * 1.2
+        fig.add_shape(type="line", x0=0, y0=0, x1=max_cac, y1=max_cac * 3,
+                     line=dict(color="#00d4aa", width=1, dash="dash"),
+                     name="3:1 ratio")
+        fig.add_annotation(x=max_cac * 0.8, y=max_cac * 3 * 0.8, text="3:1 LTV:CAC",
+                          font=dict(color="#00d4aa", size=11), showarrow=False)
+        st.plotly_chart(fig, use_container_width=True)
+
+        # Recommendations
+        st.markdown("### Recommendations")
+        excellent = results_df[results_df["Verdict"] == "Excellent"]
+        good = results_df[results_df["Verdict"] == "Good"]
+        poor = results_df[results_df["Verdict"] == "Poor"]
+
+        if len(excellent) > 0:
+            st.markdown("**Go aggressive on these segments** (LTV:CAC 5x+):")
+            for _, r in excellent.iterrows():
+                st.markdown(f"- **{r['Segment']}** — {r['Targets']} targets, {r['LTV:CAC']}x return, {r['Payback (mo)']} month payback")
+
+        if len(good) > 0:
+            st.markdown("**Solid segments to pursue** (LTV:CAC 3-5x):")
+            for _, r in good.iterrows():
+                st.markdown(f"- **{r['Segment']}** — {r['Targets']} targets, {r['LTV:CAC']}x return")
+
+        if len(poor) > 0:
+            st.markdown("**Consider deprioritizing** (LTV:CAC below 1.5x):")
+            for _, r in poor.iterrows():
+                st.markdown(f"- **{r['Segment']}** — {r['LTV:CAC']}x return. High acquisition cost relative to contract value.")
+
+        st.divider()
+        st.markdown("""
+        ### How to Read This
+
+        | Metric | What It Means |
+        |--------|--------------|
+        | **LTV** | Total profit from one client over their lifetime (annual margin x years x renewals x upsell) |
+        | **CAC** | Total cost to win one client (outreach time + site visits + bid prep at your hourly rate) |
+        | **LTV:CAC** | How much you earn vs what you spend to get them. 3:1+ is good, 5:1+ is excellent |
+        | **Payback** | Months until the client has paid back what it cost to acquire them |
+        | **Channel** | COLD = email/phone outreach, BID = formal procurement bid process |
+
+        **The dashed green line on the chart is the 3:1 ratio** — everything above it is a good investment.
+        """)
+    else:
+        st.info("Configure your costs above to see LTV/CAC analysis by segment.")
 
 # ============================================================
 # COMPANY PROFILE
