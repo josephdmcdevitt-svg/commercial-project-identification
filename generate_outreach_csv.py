@@ -256,8 +256,8 @@ output_path = os.path.join(os.path.dirname(__file__), "outreach_ready.csv")
 with open(output_path, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow([
-        "Entity", "Type", "Town", "County", "Contact Name", "Email", "Phone",
-        "Subject Line", "Email Body", "Priority Tier", "Est Revenue",
+        "Entity", "Type", "Town", "ZIP", "County", "Contact Name", "Email", "Phone",
+        "Subject Line", "Priority Tier", "Est Revenue",
         "Website", "Notes", "Status"
     ])
 
@@ -303,12 +303,12 @@ with open(output_path, "w", newline="", encoding="utf-8") as f:
             target.get("entity", ""),
             t,
             target.get("town", ""),
+            target.get("zip", ""),
             target.get("county", ""),
             target.get("contact", ""),
             email if "@" in str(email) else "",
             phone,
             subject,
-            body.replace("\n", "\\n"),  # Escape newlines for CSV
             tier,
             f"${est_rev:,}",
             target.get("website", ""),

@@ -748,15 +748,18 @@ elif page == "Target Database":
 
     # Filters
     if st.session_state.targets:
-        f1, f2, f3, f4 = st.columns(4)
+        f1, f2, f3, f4, f5 = st.columns(5)
         with f1:
             filter_type = st.multiselect("Filter by Type", sorted(set(t["type"] for t in st.session_state.targets)))
         with f2:
             filter_county = st.multiselect("Filter by County", sorted(set(t.get("county", "") for t in st.session_state.targets)))
         with f3:
-            all_towns = sorted(set(t.get("town", "") for t in st.session_state.targets if t.get("town")))
+            all_towns = sorted(set(t.get("town", "") for t in st.session_state.targets if t.get("town") and len(t.get("town","")) > 2))
             filter_town = st.multiselect("Filter by Town", all_towns)
         with f4:
+            all_zips = sorted(set(t.get("zip", "") for t in st.session_state.targets if t.get("zip")))
+            filter_zip = st.multiselect("Filter by ZIP", all_zips)
+        with f5:
             search = st.text_input("Search", placeholder="Search by name...")
 
         filtered = st.session_state.targets
@@ -766,11 +769,13 @@ elif page == "Target Database":
             filtered = [t for t in filtered if t.get("county") in filter_county]
         if filter_town:
             filtered = [t for t in filtered if t.get("town") in filter_town]
+        if filter_zip:
+            filtered = [t for t in filtered if t.get("zip") in filter_zip]
         if search:
             filtered = [t for t in filtered if search.lower() in t.get("entity", "").lower() or search.lower() in t.get("notes", "").lower()]
 
         df = pd.DataFrame(filtered)
-        display_cols = [c for c in ["entity", "type", "town", "county", "contact", "phone", "email", "vendor_reg", "status"] if c in df.columns]
+        display_cols = [c for c in ["entity", "type", "town", "zip", "county", "contact", "phone", "email", "vendor_reg", "status"] if c in df.columns]
         st.dataframe(df[display_cols], use_container_width=True, hide_index=True)
         st.markdown(f"**Showing {len(filtered)} of {len(st.session_state.targets)} targets**")
 
