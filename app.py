@@ -416,6 +416,18 @@ st.markdown("""
 
     /* Info/Warning/Success boxes */
     .stAlert { border-radius: 10px !important; }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+        .stat-card h1 { font-size: 1.3rem !important; }
+        .stat-card p { font-size: 0.65rem !important; }
+        .stat-card { padding: 14px 12px !important; }
+        .main-header { font-size: 22px !important; }
+    }
+    @media (max-width: 480px) {
+        .stat-card h1 { font-size: 1.1rem !important; }
+        .stat-card { padding: 10px 8px !important; }
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -591,19 +603,35 @@ elif page == "Priority Rankings":
         df.index.name = "Rank"
 
         # Summary by tier
+        def fmt_money(val):
+            if val >= 1_000_000:
+                return f"${val/1_000_000:.1f}M"
+            elif val >= 1_000:
+                return f"${val/1_000:.0f}K"
+            else:
+                return f"${val:,.0f}"
+
         st.markdown("### Pipeline Summary")
-        tc1, tc2, tc3, tc4 = st.columns(4)
-        for col, tier, label, css in [
-            (tc1, "A", "Tier A (75-100)", "tier-a"),
-            (tc2, "B", "Tier B (55-74)", "tier-b"),
-            (tc3, "C", "Tier C (35-54)", "tier-c"),
-            (tc4, "D", "Tier D (0-34)", "tier-d"),
+        tier_html = '<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;">'
+        for tier, label, css in [
+            ("A", "Tier A (75-100)", "tier-a"),
+            ("B", "Tier B (55-74)", "tier-b"),
+            ("C", "Tier C (35-54)", "tier-c"),
+            ("D", "Tier D (0-34)", "tier-d"),
         ]:
             tier_df = df[df["tier"] == tier]
-            with col:
-                st.markdown(f'<span class="{css}">{label}</span>', unsafe_allow_html=True)
-                st.metric("Targets", len(tier_df))
-                st.metric("Est. Revenue", f"${tier_df['est_revenue'].sum():,.0f}")
+            count = len(tier_df)
+            rev = fmt_money(tier_df["est_revenue"].sum())
+            tier_html += f'''
+            <div class="stat-card" style="text-align: left; padding: 18px 20px;">
+                <div style="margin-bottom: 12px;"><span class="{css}">{label}</span></div>
+                <p style="margin: 0;">TARGETS</p>
+                <h1 style="font-size: 1.8rem; margin: 2px 0 12px 0;">{count}</h1>
+                <p style="margin: 0;">EST. REVENUE</p>
+                <h1 style="font-size: 1.8rem; margin: 2px 0 0 0;">{rev}</h1>
+            </div>'''
+        tier_html += '</div>'
+        st.markdown(tier_html, unsafe_allow_html=True)
 
         st.divider()
 
