@@ -1781,12 +1781,23 @@ elif page == "Live Bid Feed":
                 pub_date = item.findtext("pubDate", "").strip()
 
                 # Check if it might be relevant to exterior maintenance
-                keywords = ["clean", "wash", "window", "gutter", "exterior", "maintenance",
-                           "building", "facility", "janitorial", "landscap", "grounds",
-                           "pressure", "power wash", "custod", "repair", "paint",
-                           "roof", "seal", "restoration", "graffiti"]
+                # Must match at least one strong keyword
+                strong_keywords = ["power wash", "pressure wash", "window clean",
+                                  "gutter clean", "exterior clean", "exterior maint",
+                                  "building clean", "building wash", "building maint",
+                                  "facade", "soft wash", "graffiti remov",
+                                  "janitorial", "custodial", "window wash"]
+                # Or match a service keyword + a building keyword together
+                service_words = ["clean", "wash", "sweep", "maint", "restor"]
+                building_words = ["building", "facility", "exterior", "roof",
+                                 "sidewalk", "parking", "concrete", "window",
+                                 "gutter", "grounds"]
                 text = (title + " " + description).lower()
-                is_relevant = any(kw in text for kw in keywords)
+
+                has_strong = any(kw in text for kw in strong_keywords)
+                has_service = any(kw in text for kw in service_words)
+                has_building = any(kw in text for kw in building_words)
+                is_relevant = has_strong or (has_service and has_building)
 
                 items.append({
                     "title": title,
