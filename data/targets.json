@@ -10393,5 +10393,1365 @@
     "notes": "JOIN THIS - Industry Partner Program for vendors. Directory listing, event sponsorship, networking with property managers. Active since 1953.",
     "date_added": "2026-03-15",
     "status": "Prospect"
+  },
+  {
+    "entity": "Harvest Bible Chapel - Rolling Meadows",
+    "type": "Church/Religious",
+    "town": "Rolling Meadows",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 398-7005",
+    "email": "info@harvestbible.org",
+    "website": "harvestbible.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational (Mega-Church). MEGA-CHURCH. Large campus, formerly one of 50 largest churches in US. Multiple buildings, large parking structure.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "The Orchard Evangelical Free Church - Arlington Heights",
+    "type": "Church/Religious",
+    "town": "Arlington Heights",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 392-4840",
+    "email": "info@theorchard.church",
+    "website": "theorchard.church",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Evangelical Free. Large multi-campus church. Main campus with large worship center, offices, classrooms. 6 total campuses.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "The Orchard Evangelical Free Church - Vernon Hills",
+    "type": "Church/Religious",
+    "town": "Vernon Hills",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(224) 864-1200",
+    "email": "info@theorchard.church",
+    "website": "theorchard.church",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Evangelical Free. Satellite campus of The Orchard in Vernon Hills.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Christ Church - Lake Forest",
+    "type": "Church/Religious",
+    "town": "Lake Forest",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 234-1001",
+    "email": "jneef@cclf.org",
+    "website": "christchurchil.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Large multi-site church (4 campuses). Lake Forest is main campus with large building and grounds.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Christ Church - Highland Park",
+    "type": "Church/Religious",
+    "town": "Highland Park",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 234-1001",
+    "email": "jneef@cclf.org",
+    "website": "christchurchil.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Satellite campus of Christ Church IL.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Christ Church - Vernon Hills",
+    "type": "Church/Religious",
+    "town": "Vernon Hills",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 234-1001",
+    "email": "jneef@cclf.org",
+    "website": "christchurchil.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Satellite campus of Christ Church IL.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Christ Church - Grayslake (Crossroads)",
+    "type": "Church/Religious",
+    "town": "Grayslake",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 234-1001",
+    "email": "jneef@cclf.org",
+    "website": "christchurchil.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Satellite campus of Christ Church IL.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "The Chapel - Libertyville",
+    "type": "Church/Religious",
+    "town": "Libertyville",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 201-2777",
+    "email": "libertyville@chapel.org",
+    "website": "chapel.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Large multi-site church (9 campuses). ~1,400 weekly attendance at this campus. Large facility.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "The Chapel - Grayslake",
+    "type": "Church/Religious",
+    "town": "Grayslake",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 201-2777",
+    "email": "grayslake@chapel.org",
+    "website": "chapel.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Satellite campus of The Chapel.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "The Chapel - Mundelein",
+    "type": "Church/Religious",
+    "town": "Mundelein",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 201-2777",
+    "email": "",
+    "website": "chapel.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Satellite campus of The Chapel.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "The Chapel - Lake Zurich",
+    "type": "Church/Religious",
+    "town": "Lake Zurich",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 201-2777",
+    "email": "",
+    "website": "chapel.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Satellite campus of The Chapel.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "The Chapel - Palatine",
+    "type": "Church/Religious",
+    "town": "Palatine",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 201-2777",
+    "email": "",
+    "website": "chapel.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Satellite campus of The Chapel.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Village Church of Barrington",
+    "type": "Church/Religious",
+    "town": "Barrington",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 381-5221",
+    "email": "info@vcbweb.org",
+    "website": "vcbweb.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational. Large church facility on Main St in Barrington.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Village Church of Gurnee",
+    "type": "Church/Religious",
+    "town": "Gurnee",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 244-6606",
+    "email": "village.church@vcgurnee.org",
+    "website": "vcgurnee.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational (Missionary Church). Large established church with multiple ministries. Sizeable building.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Calvary Community Church",
+    "type": "Church/Religious",
+    "town": "Schaumburg",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 895-7686",
+    "email": "",
+    "website": "calvaryschaumburg.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Baptist (Converge). Large church campus in Schaumburg. Draws worshippers from 17+ miles away.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. James Parish",
+    "type": "Church/Religious",
+    "town": "Arlington Heights",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(224) 345-7200",
+    "email": "parishoffice@stjamesah.org",
+    "website": "stjamesah.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. LARGE CATHOLIC PARISH with school (PK-8). Church + school + rectory + parish offices. Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Our Lady of the Wayside",
+    "type": "Church/Religious",
+    "town": "Arlington Heights",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 253-5353",
+    "email": "communications@olwparish.org",
+    "website": "olwparish.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. LARGE CATHOLIC PARISH. ~3,000 households. Blue Ribbon school (PK-8). Church + school + rectory + parish hall. Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Edna Catholic Church",
+    "type": "Church/Religious",
+    "town": "Arlington Heights",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 398-3362",
+    "email": "fmccauley@stedna.org",
+    "website": "stedna.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Large Catholic parish with extensive facilities. Large church building and parish center.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Theresa Catholic Church",
+    "type": "Church/Religious",
+    "town": "Palatine",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 358-7760",
+    "email": "frtim@sttheresachurch.org",
+    "website": "sttheresachurch.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Large Catholic parish with school (PK-8). Church + school + rectory. Multiple buildings, established 1954.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Holy Family Catholic Community",
+    "type": "Church/Religious",
+    "town": "Inverness",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 359-0042",
+    "email": "",
+    "website": "holyfamilyparish.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. LARGE CATHOLIC CAMPUS. Church + Holy Family Catholic Academy (IB World School, PK-8) + parish center. Multiple buildings on large property.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Hubert Catholic Church (Holy Archangels Parish)",
+    "type": "Church/Religious",
+    "town": "Hoffman Estates",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 885-7700",
+    "email": "office@sainthubert.org",
+    "website": "sthubert.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Large Catholic parish with school (PK-8). Church + school building + parish center. Part of Holy Archangels Parish.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Church of the Holy Spirit",
+    "type": "Church/Religious",
+    "town": "Schaumburg",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 882-7580",
+    "email": "chsschaumburg@gmail.com",
+    "website": "churchoftheholyspirit.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with religious education center. Established 1984. Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Emily Parish",
+    "type": "Church/Religious",
+    "town": "Mount Prospect",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 824-5049",
+    "email": "djacob@stemily.org",
+    "website": "stemily.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. LARGE CATHOLIC PARISH with National Blue Ribbon school (PK-8). Church + school + parish offices. Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Alphonsus Liguori Church",
+    "type": "Church/Religious",
+    "town": "Prospect Heights",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 255-7452",
+    "email": "rectory@saintalphonsus.com",
+    "website": "saintalphonsusph.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with school (K-8). Church + school + rectory. Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Paul of the Cross",
+    "type": "Church/Religious",
+    "town": "Park Ridge",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 825-7605",
+    "email": "madeleinemccoy@spc-church.org",
+    "website": "spc-church.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. VERY LARGE CATHOLIC PARISH. 5,000 families. 750+ students in school. Campus: church, lower chapel, adoration chapel, TWO school buildings, parish center, rectory, food pantry. 7+ buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Mary Seat of Wisdom",
+    "type": "Church/Religious",
+    "town": "Park Ridge",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 825-3153",
+    "email": "dho@mswparish.org",
+    "website": "mswparish.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Large Catholic parish with school. Church + school (at 1352 S Cumberland Ave) + parish buildings. Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Our Lady of Ransom",
+    "type": "Church/Religious",
+    "town": "Niles",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 823-2550",
+    "email": "",
+    "website": "olransom.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with school (PK-8). Church + school + parish buildings. Multiple buildings on campus.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "All Saints Parish (St. Isaac Jogues)",
+    "type": "Church/Religious",
+    "town": "Niles",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 967-1060",
+    "email": "office@parishofallsaints.org",
+    "website": "parishofallsaints.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Merged parish with two worship sites. Multiple buildings across campus.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. John Brebeuf",
+    "type": "Church/Religious",
+    "town": "Niles",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 966-8145",
+    "email": "",
+    "website": "sjbrebeuf.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with school (PK-8). Church + school + parish ministry center. Multiple buildings. Founded 1953.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Ss. Peter and Lambert Parish",
+    "type": "Church/Religious",
+    "town": "Skokie",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 673-1492",
+    "email": "parish@stpeter-skokie.org",
+    "website": "sspeterandlambert.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Merged parish with TWO church buildings (St. Peter + St. Lambert at 8148 N Karlov Ave). School. Multiple buildings across two campuses.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. John Henry Newman Parish (St. Athanasius)",
+    "type": "Church/Religious",
+    "town": "Evanston",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 328-1430",
+    "email": "jsalako@newmanparish.com",
+    "website": "newmanparish.com",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish in Evanston with school. Church + school + parish buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Saints Faith Hope & Charity",
+    "type": "Church/Religious",
+    "town": "Winnetka",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 446-7646",
+    "email": "parishoffice@faithhope.org",
+    "website": "faithhope.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Large Catholic parish with school. Church + school (faithhopeschool.org) + rectory + parish hall. Multiple buildings on North Shore.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Divine Mercy Parish",
+    "type": "Church/Religious",
+    "town": "Winnetka",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 446-8056",
+    "email": "jpyke@divinemercynorthshore.org",
+    "website": "divinemercynorthshore.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Merged parish with TWO worship sites (Sacred Heart in Winnetka + St. Philip in Northfield at 1962 Old Willow Rd). K-8 school. Multiple buildings across two locations.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Saints Joseph & Francis Xavier (JFX)",
+    "type": "Church/Religious",
+    "town": "Wilmette",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 256-4250",
+    "email": "",
+    "website": "ssjfx.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. LARGE merged Catholic parish with dual-campus school. St. Joseph Campus (preschool) + St. Francis Xavier Campus (K-8). Blue Ribbon school. Multiple buildings at two Wilmette locations.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Norbert and Our Lady of the Brook",
+    "type": "Church/Religious",
+    "town": "Northbrook",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 272-7090",
+    "email": "ann@northbrookcatholic.church",
+    "website": "northbrookcatholic.church",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with school (St. Norbert School). Church + school + parish buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Our Lady of Perpetual Help",
+    "type": "Church/Religious",
+    "town": "Glenview",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 729-1525",
+    "email": "",
+    "website": "olphglenview.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. VERY LARGE CATHOLIC PARISH. Largest Catholic elementary school in Chicago Archdiocese (school at 1123 Church St). Church + large school building + parish center. Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Catherine Laboure",
+    "type": "Church/Religious",
+    "town": "Glenview",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 729-1414",
+    "email": "",
+    "website": "stcatherinelaboure.com",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with school (at 3425 Thornwood Ave). Church + school + parish buildings. 50+ years serving Glenview.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Holy Cross Catholic Church",
+    "type": "Church/Religious",
+    "town": "Deerfield",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 945-0430",
+    "email": "HCPweb@holycrossparish.net",
+    "website": "holycrossparish.net",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with school. Church + school + parish buildings in Deerfield.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Joseph Catholic Church",
+    "type": "Church/Religious",
+    "town": "Libertyville",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 362-2073",
+    "email": "office@stjoseph-libertyville.org",
+    "website": "stjoseph-libertyville.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. VERY LARGE CATHOLIC PARISH. 3,000+ families. Large campus with church + school + rectory + parish center. Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Mary of the Annunciation",
+    "type": "Church/Religious",
+    "town": "Mundelein",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 223-0010",
+    "email": "parish@stmota.org",
+    "website": "stmaryfc.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Large Catholic parish. 1,600+ families, 60+ ministries. Large church building + parish facilities on rural campus.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Patrick Catholic Church",
+    "type": "Church/Religious",
+    "town": "Lake Forest",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 234-1401",
+    "email": "office@stpatrick-lakeforest.org",
+    "website": "stpatrick-lakeforest.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Historic Catholic parish (founded 1849). Main Church + Old Church + parish buildings. One of oldest in Archdiocese.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Christ Our Hope (Immaculate Conception)",
+    "type": "Church/Religious",
+    "town": "Highland Park",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 433-0130",
+    "email": "",
+    "website": "cohparish.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish in Highland Park. Church + parish buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Most Blessed Trinity Parish",
+    "type": "Church/Religious",
+    "town": "Waukegan",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 623-2655",
+    "email": "blessedtrinity@archchicago.org",
+    "website": "mbtparish.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. VERY LARGE merged parish. THREE church buildings: Holy Family (450 Keller Ave), Immaculate Conception (508 Grand Ave, Waukegan), Queen of Peace (910 14th St, N Chicago). Plus academy (510 Grand Ave). 4+ buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Paul the Apostle",
+    "type": "Church/Religious",
+    "town": "Gurnee",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 918-0600",
+    "email": "info@spa.church",
+    "website": "saintpaultheapostle.church",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Large Catholic parish in Gurnee. Church + parish center.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Francis de Sales",
+    "type": "Church/Religious",
+    "town": "Lake Zurich",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 438-6622",
+    "email": "parishoffice@stfrancislz.org",
+    "website": "stfrancislzparish.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Large Catholic parish with school. Church + Ministry Center (135 S Buesching) + school (11 S Buesching). Multiple buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Mary Parish",
+    "type": "Church/Religious",
+    "town": "Buffalo Grove",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 541-1450",
+    "email": "parish@stmarybg.org",
+    "website": "stmarybg.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with school (at 50 N Buffalo Grove Rd). Church + school + parish buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Joseph the Worker",
+    "type": "Church/Religious",
+    "town": "Wheeling",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 537-2740",
+    "email": "frmarcin@stjosephworker.com",
+    "website": "stjosephworker.com",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish with school. Trilingual parish (English/Polish/Spanish). Church + school + parish buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Zachary Parish",
+    "type": "Church/Religious",
+    "town": "Des Plaines",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 956-7020",
+    "email": "parishoffice@saintzachary.org",
+    "website": "saintzachary.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Catholic parish. Large church building + parish center + former school building. Multiple buildings on campus.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Our Lady of the Blessed Sacrament",
+    "type": "Church/Religious",
+    "town": "Elk Grove Village",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 979-0901",
+    "email": "info@OLBSEGV.org",
+    "website": "olbsegv.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Merged parish with TWO church buildings: Queen of the Rosary + St. Julian Eymard (601 Biesterfield Rd). Blue Ribbon school (PK-8, at 690 Elk Grove Blvd). 3+ buildings.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "St. Clare of Assisi (merged St. Colette)",
+    "type": "Church/Religious",
+    "town": "Rolling Meadows",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 437-6208",
+    "email": "stclareofassisi@archchicago.org",
+    "website": "stclareofassisi.com",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic. Merged Catholic parish. Church + parish facilities.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "University of St. Mary of the Lake / Mundelein Seminary",
+    "type": "Church/Religious",
+    "town": "Mundelein",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 566-6401",
+    "email": "mundeleinseminary@usml.edu",
+    "website": "usml.edu",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Catholic Seminary. MASSIVE CAMPUS. Largest Catholic seminary in US. 200+ seminarians. Dozens of historic buildings, chapel, library, dormitories, offices on sprawling lakeside campus. HUGE power washing opportunity.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "First Presbyterian Church of Lake Forest",
+    "type": "Church/Religious",
+    "town": "Lake Forest",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 234-6250",
+    "email": "info@firstchurchlf.org",
+    "website": "firstchurchlf.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Presbyterian (PCUSA). Historic large church (founded 1859). Large stone building + preschool + education wing. Prominent Lake Forest landmark.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Winnetka Presbyterian Church",
+    "type": "Church/Religious",
+    "town": "Winnetka",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 446-7777",
+    "email": "office@winnpres.org",
+    "website": "winnpres.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Presbyterian (PCUSA). Large Presbyterian church on North Shore. Established 1956. Large building.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Winnetka Congregational Church",
+    "type": "Church/Religious",
+    "town": "Winnetka",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 441-3400",
+    "email": "wcc@winnetkacongregationalchurch.org",
+    "website": "winnetkacongregationalchurch.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "United Church of Christ. Historic large church (since 1874). Prominent stone building on North Shore.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Kenilworth Union Church",
+    "type": "Church/Religious",
+    "town": "Kenilworth",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 251-4272",
+    "email": "info@kuc.org",
+    "website": "kuc.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Non-Denominational (Historic). Oldest non-denominational church in the US. Historic large stone building + additions. Recently approved major building addition. Prestigious North Shore location.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Trinity United Methodist Church",
+    "type": "Church/Religious",
+    "town": "Wilmette",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 251-7333",
+    "email": "trinityinfo@trinitywilmette.org",
+    "website": "trinitywilmette.com",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "United Methodist. Large Methodist church with nursery school. Prominent building on Lake Ave in Wilmette.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Glenview United Methodist Church",
+    "type": "Church/Religious",
+    "town": "Glenview",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 729-1015",
+    "email": "",
+    "website": "glenviewumc.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "United Methodist. Methodist church with large building in Glenview.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Kingswood United Methodist Church",
+    "type": "Church/Religious",
+    "town": "Buffalo Grove",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 398-0770",
+    "email": "",
+    "website": "kingswoodumc.com",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "United Methodist. Methodist church with multiple campus programs. Building on Dundee Rd.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Gloria Dei Lutheran Church",
+    "type": "Church/Religious",
+    "town": "Northbrook",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 272-0400",
+    "email": "",
+    "website": "gloriadeinorthbrook.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Lutheran (ELCA). ELCA Lutheran church. Established 1956. Church building in Northbrook.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Immanuel Lutheran Church",
+    "type": "Church/Religious",
+    "town": "Des Plaines",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 824-3652",
+    "email": "immanueldp@immanueldp.org",
+    "website": "immanueldp.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Lutheran (LCMS). Lutheran church with community outreach programs including cafe and food bank.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "North Shore Congregation Israel",
+    "type": "Church/Religious",
+    "town": "Glencoe",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 835-0724",
+    "email": "toddb@nsci.org",
+    "website": "nsci.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Reform Jewish. LARGE REFORM SYNAGOGUE. Landmark Minoru Yamasaki-designed building on lakefront. Major architectural landmark. Large campus.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "North Suburban Synagogue Beth El",
+    "type": "Church/Religious",
+    "town": "Highland Park",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 432-8900",
+    "email": "office@nssbethel.org",
+    "website": "nssbethel.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Conservative Jewish. LARGE CONSERVATIVE SYNAGOGUE. 6.5-acre campus overlooking Lake Michigan. Large building complex.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Makom Solel Lakeside",
+    "type": "Church/Religious",
+    "town": "Highland Park",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 433-3555",
+    "email": "office@mymakom.org",
+    "website": "mymakom.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Reform Jewish. Large Reform synagogue. 5.5-acre campus. Merged congregation with building addition (2010). Large facility.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Temple Jeremiah",
+    "type": "Church/Religious",
+    "town": "Northfield",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 441-5760",
+    "email": "office@templejeremiah.org",
+    "website": "templejeremiah.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Reform Jewish. Large Reform synagogue. Church + school building. Prominent North Shore congregation.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Temple Beth Israel",
+    "type": "Church/Religious",
+    "town": "Skokie",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 675-0951",
+    "email": "info@TBISkokie.org",
+    "website": "tbiskokie.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Reform Jewish. Reform synagogue. Large building on Dempster St in Skokie.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Congregation B'nai Jehoshua Beth Elohim (BJBE)",
+    "type": "Church/Religious",
+    "town": "Deerfield",
+    "county": "Lake",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 940-7575",
+    "email": "bjbe@bjbe.org",
+    "website": "bjbe.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Reform Jewish. VERY LARGE REFORM SYNAGOGUE. 850 member families. Four worship spaces (capacity up to 1,200). Large modern campus.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Congregation Beth Shalom",
+    "type": "Church/Religious",
+    "town": "Northbrook",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 498-4100",
+    "email": "cbsnb3433@aol.com",
+    "website": "bethshalomnb.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Conservative Jewish. LARGE CONSERVATIVE SYNAGOGUE. 950+ member families. One of largest Conservative synagogues on North Shore. Large building.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
+  },
+  {
+    "entity": "Jewish Reconstructionist Congregation (JRC)",
+    "type": "Church/Religious",
+    "town": "Evanston",
+    "county": "Cook",
+    "contact": "Church Office",
+    "contact_title": "Office",
+    "phone": "(847) 328-7678",
+    "email": "info@jrctogether.org",
+    "website": "jrctogether.org",
+    "vendor_reg": "Not Required",
+    "services": [
+      "Power Washing",
+      "Window Cleaning",
+      "Gutter Cleaning"
+    ],
+    "notes": "Reconstructionist Jewish. Large Reconstructionist synagogue. 500+ households. Purpose-built facility.",
+    "date_added": "2026-03-16",
+    "status": "Prospect"
   }
 ]
